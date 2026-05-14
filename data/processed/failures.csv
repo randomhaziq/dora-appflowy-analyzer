@@ -1,12 +1,20 @@
 issue_number,title,created_at,closed_at,labels,state,html_url
+50,[Bug] Colored background of highlighted text covers cursor,2021-11-20 08:27:52+00:00,2021-12-01 12:58:32+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/50
+114,[Bug] Protobuf generation for FFI not working properly on linux,2021-12-02 09:31:11+00:00,2021-12-06 15:01:31+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/114
+106,[Bug] Build failed on Ubuntu 20.04,2021-11-30 13:57:25+00:00,2021-12-06 15:05:02+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/106
+180,[Bug] [ERROR:flutter/lib/ui/ui_dart_state.cc(209)] Unhandled Exception: Invalid argument(s): Failed to load dynamic library 'libdart_ffi.so': /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.32' not found ,2021-12-19 07:05:57+00:00,2021-12-19 20:08:07+00:00,bug|notes,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/180
+153,[BUG] the option 'Duplicate' get cut off ,2021-12-14 13:27:39+00:00,2021-12-23 03:41:19+00:00,bug|good first issue for devs,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/153
+196,[Bug] Data gets duplicated when starting the application,2021-12-23 18:17:58+00:00,2022-01-03 11:50:31+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/196
 354,[Bug] Fix DocBanner widget layout issue,2022-02-20 00:49:26+00:00,2022-02-24 03:58:33+00:00,bug|good first issue for devs,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/354
 369,[Bug] Mistakes in the fr.json ,2022-02-22 08:38:57+00:00,2022-02-25 01:48:48+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/369
+143,[Bug] Deleting a page a second time does not ask for confirmation,2021-12-13 22:27:52+00:00,2022-04-12 08:16:07+00:00,bug|good first issue for experienced devs,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/143
 509,[Bug] Select options,2022-05-26 09:58:51+00:00,2022-05-30 10:42:18+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/509
 508,[Bug] Number editing,2022-05-26 09:33:18+00:00,2022-05-30 10:42:48+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/508
 502,[Bug] Emoji picker stuck until reboot,2022-05-19 21:15:11+00:00,2022-06-04 06:09:09+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/502
 482,"[Bug] Mac app asking to ""Create a new work area""",2022-05-04 14:18:45+00:00,2022-06-09 01:27:43+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/482
 471,[Bug] Cursor sometimes jumps to top line when inputting Japanese text,2022-04-29 19:22:22+00:00,2022-06-11 18:42:49+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/471
 595,[Bug] Unexpet behaviour of window when changing Appearance(Light Mode or Dark Mode),2022-07-06 14:13:25+00:00,2022-07-11 02:56:10+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/595
+11,[Bug] Fonts doesn't load or text is garbled,2021-11-16 06:59:51+00:00,2022-07-28 14:17:21+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/11
 811,[Bug] The height of selection areas in same line is not same.,2022-08-11 03:31:24+00:00,2022-08-11 11:08:31+00:00,bug|editor,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/811
 814,[Bug] Cannot use `#` to convert text to heading,2022-08-11 03:58:02+00:00,2022-08-11 11:08:32+00:00,bug|editor,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/814
 827,[Bug] Cannot format text style correctly,2022-08-11 12:14:06+00:00,2022-08-11 14:36:07+00:00,bug|editor,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/827
@@ -51,6 +59,7 @@ issue_number,title,created_at,closed_at,labels,state,html_url
 1498,[Bug] Grid Filter: the filter menu should close after pressing enter,2022-11-28 11:42:04+00:00,2022-12-05 07:17:45+00:00,bug|grid,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/1498
 1406,[Bug] Clipboard does not work in Windows,2022-10-31 16:12:21+00:00,2022-12-08 08:14:13+00:00,bug|editor,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/1406
 1586,[Bug] Editor: deleting an image causes the editor to enter a bad state,2022-12-19 22:17:22+00:00,2022-12-20 01:57:19+00:00,bug|editor,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/1586
+65,[Bug] Blank page,2021-11-21 15:05:54+00:00,2022-12-31 02:59:40+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/65
 1434,[Bug]  NetworkType null safety issue,2022-11-10 13:19:08+00:00,2023-01-04 05:48:01+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/1434
 1571,[Bug] type 'PhantomGroupItem' is not a subtype of type 'TicketItem' of 'value',2022-12-14 06:51:10+00:00,2023-01-04 23:50:41+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/1571
 1603,"[Bug] Inputting the text was accepted under ""Number"" type property",2022-12-22 14:56:00+00:00,2023-01-07 02:19:54+00:00,bug|grid,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/1603
@@ -163,6 +172,7 @@ issue_number,title,created_at,closed_at,labels,state,html_url
 2322,[Bug] Link Dialog is partially invisible at the bottom of the page,2023-04-23 06:15:56+00:00,2023-06-12 08:18:13+00:00,bug|good first issue for experienced devs|improvements|editor,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/2322
 2684,[Bug] When Deleting Last DOC it's not deleting.,2023-06-02 06:03:09+00:00,2023-06-12 09:11:38+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/2684
 1514,[Bug] Grid note broken after upgrade from 0.0.7 to 0.0.8,2022-11-30 12:13:32+00:00,2023-06-12 10:30:00+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/1514
+144,[Bug] The page tree disappears when re-showing the side panel,2021-12-13 22:38:35+00:00,2023-06-12 11:33:22+00:00,bug|good first issue for experienced devs,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/144
 1416,[Bug] ,2022-11-05 11:38:03+00:00,2023-06-12 12:04:50+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/1416
 1389,"[Bug] unable to open the menu with ""/"" by installing via fatpack | grey screen via .tar.gz installation",2022-10-28 13:02:05+00:00,2023-06-12 12:06:33+00:00,bug|editor,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/1389
 1711,[Bug] Page infintie loading,2023-01-15 11:08:44+00:00,2023-06-12 12:11:28+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/1711
@@ -245,8 +255,8 @@ issue_number,title,created_at,closed_at,labels,state,html_url
 1027,[Bug] Need scrolling in Board Page,2022-09-11 12:41:18+00:00,2023-08-24 08:22:31+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/1027
 3171,[Bug] Views beyond the space cannot be access,2023-08-12 06:11:23+00:00,2023-08-24 08:30:11+00:00,bug|grid,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/3171
 3227,[Bug] Renamed a view triggers the cut context menu,2023-08-17 07:07:26+00:00,2023-08-28 02:58:27+00:00,bug|grid,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/3227
-3193,[Bug] No way to upload the image at the bottom of a doc,2023-08-14 08:53:08+00:00,2023-08-28 02:58:28+00:00,bug|editor,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/3193
 3155,[Bug] The pasted content gets reversed when pasting at the first line,2023-08-10 08:40:59+00:00,2023-08-28 02:58:28+00:00,bug|editor,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/3155
+3193,[Bug] No way to upload the image at the bottom of a doc,2023-08-14 08:53:08+00:00,2023-08-28 02:58:28+00:00,bug|editor,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/3193
 3132,[Bug] Selection Menu has no background shadow or border in light modes,2023-08-07 07:04:23+00:00,2023-08-28 02:58:29+00:00,bug|regression,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/3132
 2768,"[Bug] when clicking away, the cursor remains jumping although it's not active",2023-06-11 13:35:08+00:00,2023-08-28 02:58:30+00:00,bug|editor,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/2768
 2222,[Bug] Build in Xcode fail,2023-04-09 06:17:28+00:00,2023-08-28 02:58:31+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/2222
@@ -360,6 +370,7 @@ issue_number,title,created_at,closed_at,labels,state,html_url
 704,[Bug] Error on building from docker image appflowy/appflowy:latest,2022-07-25 00:21:23+00:00,2023-12-24 18:28:44+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/704
 544,[Bug] Window changes it's size and position to default on settings changing,2022-06-08 13:34:57+00:00,2023-12-24 18:31:07+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/544
 418,"[Bug] Failed to load module ""canberra-gtk-module"" and grey screen when building with docker",2022-03-16 16:36:10+00:00,2023-12-24 18:46:53+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/418
+100,Issues installing AppFlowy using given instructions,2021-11-27 05:58:00+00:00,2023-12-24 19:15:34+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/100
 4177,[Bug] Font selection makes the app freeze,2023-12-20 10:23:00+00:00,2023-12-31 10:24:25+00:00,bug|editor,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4177
 4223,[Bug] option capsule is not high enough to display full text with an emoji,2023-12-27 17:51:57+00:00,2024-01-07 13:16:49+00:00,bug|2024|database,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4223
 4333,[Bug] unable to launch the iOS application,2024-01-08 14:17:51+00:00,2024-01-11 07:12:34+00:00,bug|mobile,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4333
@@ -381,8 +392,8 @@ issue_number,title,created_at,closed_at,labels,state,html_url
 4600,[Bug] Newly inserted rows aren't being sorted,2024-02-04 13:54:21+00:00,2024-02-20 05:17:47+00:00,bug|grid,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4600
 4520,"[Bug] In Grid, removing the Field sorted by, doesn't remove the Sort until refreshing view",2024-01-27 14:40:45+00:00,2024-02-21 23:24:07+00:00,bug|2024|database,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4520
 4495,[Bug] Page reference can is opened only when the line is focused.,2024-01-25 13:24:10+00:00,2024-02-23 03:13:08+00:00,bug,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4495
-4730,[Bug] calculation default value for average is 0,2024-02-24 15:59:09+00:00,2024-02-25 20:32:45+00:00,bug|database,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4730
 4729,[Bug] calculation cannot clear,2024-02-24 15:56:27+00:00,2024-02-25 20:32:45+00:00,bug|database,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4729
+4730,[Bug] calculation default value for average is 0,2024-02-24 15:59:09+00:00,2024-02-25 20:32:45+00:00,bug|database,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4730
 4479,[Bug] When editing properties in grid the scrollview is limited,2024-01-24 09:56:44+00:00,2024-02-28 09:51:55+00:00,bug|mobile|2024|database,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4479
 4772,[Bug] Unequal horizontal padding in mobile database header,2024-02-28 10:34:24+00:00,2024-02-28 12:21:24+00:00,bug|2024|look and joy,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4772
 4776,[Bug] Mobile Settings as anonymous user has empty space,2024-02-28 11:20:17+00:00,2024-02-28 12:23:08+00:00,bug|mobile,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4776
@@ -393,14 +404,14 @@ issue_number,title,created_at,closed_at,labels,state,html_url
 4790,[Bug]  unable to sync the images,2024-03-01 12:10:51+00:00,2024-03-04 04:24:26+00:00,bug|data sync,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4790
 4457,[Tauri][Bug] math equation block doesn't work at all,2024-01-22 19:26:12+00:00,2024-03-05 08:41:04+00:00,bug|tauri,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4457
 4446,[Tauri][Bug] Entering title creates duplicate text,2024-01-22 18:46:30+00:00,2024-03-05 08:41:38+00:00,bug|tauri,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4446
+4447,[Tauri][Bug]  markdown checkbox is not supported,2024-01-22 18:50:35+00:00,2024-03-05 08:41:39+00:00,bug|tauri,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4447
 4448,[Tauri][Bug] copy should match AppFlowy Flutter,2024-01-22 18:56:19+00:00,2024-03-05 08:41:39+00:00,bug|tauri,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4448
 4449,[Tauri][Bug] markdown bold and italics not supported,2024-01-22 18:59:54+00:00,2024-03-05 08:41:39+00:00,bug|tauri,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4449
-4447,[Tauri][Bug]  markdown checkbox is not supported,2024-01-22 18:50:35+00:00,2024-03-05 08:41:39+00:00,bug|tauri,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4447
 4450,[Tauri][Bug] markdown quote issue,2024-01-22 19:02:32+00:00,2024-03-05 08:41:40+00:00,bug|tauri,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4450
 4451,[Tauri][Bug] outdent not working properly ,2024-01-22 19:05:17+00:00,2024-03-05 08:41:40+00:00,bug|tauri,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4451
 4452,[Tauri][Bug] divider not working properly,2024-01-22 19:09:29+00:00,2024-03-05 08:41:40+00:00,bug|tauri,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4452
-4453,[Tauri][Bug] format as code color contrast in dark mode,2024-01-22 19:12:48+00:00,2024-03-05 08:41:41+00:00,bug|tauri,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4453
 4454,[Tauri][Bug] toggle not working,2024-01-22 19:16:29+00:00,2024-03-05 08:41:41+00:00,bug|tauri,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4454
+4453,[Tauri][Bug] format as code color contrast in dark mode,2024-01-22 19:12:48+00:00,2024-03-05 08:41:41+00:00,bug|tauri,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4453
 4455,[Tauri][Bug] code block languages should match with the flutter app,2024-01-22 19:20:44+00:00,2024-03-05 08:41:42+00:00,bug|tauri,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4455
 4456,[Tauri][Bug] inline math equation doesn't work,2024-01-22 19:24:07+00:00,2024-03-05 08:41:42+00:00,bug|tauri,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/4456
 2801,[Bug] Headings and a numbered list should be able to coexist,2023-06-15 06:45:11+00:00,2024-03-11 03:55:53+00:00,bug|editor|2024,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/2801
@@ -749,6 +760,8 @@ I cant add documents inside the document ",2025-01-14 16:08:03+00:00,2025-09-05 
 7480,[Bug] RecordNotFound when loading a recently added Database tab.,2025-03-07 10:43:26+00:00,2026-03-11 08:07:06+00:00,bug|platform-mac|database,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/7480
 3856,[Bug] better contrast slash menu Lavendar,2023-11-01 08:49:48+00:00,2026-03-11 08:16:30+00:00,bug|needs design|platform-mac,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/3856
 3434,[Bug] Grouping by date in board view randomly orders the columns,2023-09-18 22:41:43+00:00,2026-03-13 07:32:51+00:00,bug|kanban board|platform-windows,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/3434
+8572,"[Bug] When editing text fields in grid view of DB, space bar key is not working",2026-03-13 13:32:14+00:00,2026-03-24 05:25:45+00:00,bug|database,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/8572
+8581,[Bug] Cannot insert block elements from '+' menu immediately after creating a new page,2026-03-16 03:16:45+00:00,2026-03-24 13:54:41+00:00,bug|platform-windows|slash-menu,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/8581
 7729,[Bug] Non-bullet text child block on bullet is not aligned with parent,2025-04-11 08:10:02+00:00,2026-03-30 02:20:15+00:00,bug|editor|platform-linux,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/7729
 8390,[Bug] Notion Importer Page is Constantly Refreshing,2025-12-14 13:52:49+00:00,2026-03-31 08:26:05+00:00,bug|web|2026,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/8390
 8370,[Bug] Syncing issues of grids' text fields betwen standalone app to web interface,2025-11-29 07:37:16+00:00,2026-03-31 08:30:50+00:00,bug|data sync|database|2026,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/8370
@@ -758,9 +771,16 @@ I cant add documents inside the document ",2025-01-14 16:08:03+00:00,2025-09-05 
 6724,"[Bug] Notion import from .zip doesn't link pages in ""table""",2024-11-05 07:12:57+00:00,2026-04-01 09:30:39+00:00,bug|importer|database,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/6724
 5866,[Bug] duplicate a doc with an inline grid,2024-08-02 07:54:19+00:00,2026-04-02 03:24:50+00:00,bug|editor|database,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/5866
 8065,[Bug] Duplicating Databases Not Creating New Databases,2025-06-15 04:03:52+00:00,2026-04-02 03:25:17+00:00,bug|platform-windows|platform-linux|database|2026,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/8065
+8570,[Bug] DB view duplication does not seem to be functional,2026-03-13 13:26:32+00:00,2026-04-07 01:44:40+00:00,bug|database,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/8570
+8615,[Bug] Copy plain text numbers and then paste as USD vs Euro,2026-04-01 01:51:36+00:00,2026-04-10 07:47:16+00:00,bug|database|copy-paste|2026|q2 26,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/8615
+8659,[Bug] Unable to open Appflowy installed from Snapstore,2026-04-11 15:39:10+00:00,2026-04-14 07:11:44+00:00,bug|install|platform-linux,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/8659
+8610,"[FR] Remove (""Auto-populate title in body"") and mouse backbutton functionality",2026-03-29 11:04:15+00:00,2026-04-15 03:42:20+00:00,bug|editor|2026|q2 26,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/8610
+8651,[Bug] Undo stack grid disappearance when creating nested grids (Grid B inside Grid A),2026-04-06 14:11:22+00:00,2026-04-22 02:43:21+00:00,bug|editor|database|2026|q2 26,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/8651
 8383,[Bug] Row and column order changes after duplicating a page with Grid,2025-12-08 09:38:32+00:00,2026-05-06 03:40:40+00:00,bug|database|2026,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/8383
+8441,[Mobile] Filtered Grid View Does Not Show Newly Added Rows Until Filter Is Toggled,2026-01-19 21:05:35+00:00,2026-05-07 02:51:44+00:00,bug|grid|database,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/8441
 7928,[Bug] Some items in a grid are not visible in the Desktop app,2025-05-13 10:46:35+00:00,2026-05-08 03:06:35+00:00,bug|grid|platform-linux,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/7928
 7287,[Bug] multiple cursors appear in a document with grid when you try to paste text in grid copied from document.,2025-01-25 08:16:59+00:00,2026-05-08 03:10:36+00:00,bug|grid|editor|data sync,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/7287
 7325,[Bug] Reordering rows in grid on mobile resulted in missing rows on web,2025-01-26 10:57:46+00:00,2026-05-08 03:10:47+00:00,bug|grid|mobile|desktop,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/7325
 6426,[Bug] Kanban Board information lost on Duplicating it ,2024-09-29 09:51:36+00:00,2026-05-08 03:22:01+00:00,bug|kanban board|2025,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/6426
 6536,[Bug] Duplicating a Space doesn't copy nested databases ,2024-10-13 06:38:30+00:00,2026-05-08 03:45:12+00:00,bug|2025,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/6536
+8687,[Bug] filtering DBs using roolup property does not provide drop down of options,2026-05-02 15:12:01+00:00,2026-05-08 08:42:17+00:00,bug|database|2026|q2 26,closed,https://github.com/AppFlowy-IO/AppFlowy/issues/8687

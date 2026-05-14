@@ -1,4 +1,1110 @@
 deployment_tag,previous_tag,deployment_date,commit_sha,commit_date,author_name,author_email,commit_message,lead_time_days
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f7d66a1e59617bcde202c17d66dc5d2241e25106,2021-11-15T18:23:04+08:00,appflowy,annie@appflowy.io,[flutter]: update version,97.67864583333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,96560d2b3e35431cb3abb53f75d42c91218a3994,2021-11-15T21:39:37+08:00,appflowy,annie@appflowy.io,[flutter]: update appflowy desktop bundle identifier,97.54215277777777
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,92ab7eac17143596ac65d9dcab687e081b1d6c2a,2021-11-15T22:14:47+08:00,appflowy,annie@appflowy.io,[rust]: fix scripts errors,97.51773148148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a2854297b3c0d103cc52992865ec608602311b0b,2021-11-15T20:32:43-08:00,Stephen,stephengroat@users.noreply.github.com,Create ci.yaml,96.92194444444445
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,418812d61dee35c8b374615972bf932e90f01334,2021-11-16T12:56:53+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #9 from stephengroat/patch-1
+
+Thanks, the pipeline will be set up very soon.",96.90516203703703
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a72dc5d2ec7da9347f1af27c24af91db72bbce60,2021-11-16T14:23:48+08:00,appflowy,annie@appflowy.io,[flutter]: disable copy-to-sys-tmpdir task,96.84480324074075
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,fcb8d49cf96fd1ffae8cdbb6cabf7f4146354b6a,2021-11-16T00:18:48-08:00,Stephen,stephengroat@users.noreply.github.com,remove brew install from env.toml,96.76494212962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,df053fbc48e1f3518ef1a5468f1ab93425d53616,2021-11-16T00:19:49-08:00,Stephen,stephengroat@users.noreply.github.com,use brew bundle,96.76423611111112
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ce8979afe8f4724cc05dcdc6b3c7f275c0f9e8bb,2021-11-16T00:20:21-08:00,Stephen,stephengroat@users.noreply.github.com,Create Brewfile,96.76386574074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1cdf5aea53392c686300214a49bba6adb1f90139,2021-11-16T00:23:54-08:00,Stephen,stephengroat@users.noreply.github.com,add rustup-init,96.76140046296297
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e334cde639abb6f2f83aeb25fa5c50bfe4d4c8eb,2021-11-16T00:25:45-08:00,Stephen,stephengroat@users.noreply.github.com,try using rustup-init for rust install,96.76011574074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,3cfa7d0c6820531bc6a8cfe72f02db9ab9bd024f,2021-11-16T00:34:20-08:00,Stephen,stephengroat@users.noreply.github.com,"unpin protobuf version
+
+3.13 no longer available",96.7541550925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,796a0a9f415c9e78fb6d44a31aeede897f73b23f,2021-11-16T16:44:09+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #14 from stephengroat/patch-1
+
+Use brewfile",96.74733796296296
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,19968010af36219ed2daf8d5b93bbbea0040ff03,2021-11-16T21:38:50+08:00,annie,anqi.annie.wang@gmail.com,[flutter]: format time of trash cell,96.54269675925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,74239d65cb8d68ad41242354b975ddac4dcebd70,2021-11-17T14:18:21+08:00,appflowy,annie@appflowy.io,[rust]: windows config,95.84858796296297
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f94f3f2d6ae45bdb43eb74b1dbba8d92aa52106d,2021-11-17T14:27:37+08:00,appflowy,annie@appflowy.io,[flutter]: ignore podfile.lock,95.84215277777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,89ba4195e5a131d3cd7f6218ee3355e6f8b76d04,2021-11-17T14:28:21+08:00,appflowy,annie@appflowy.io,[flutter]: fix some warnings,95.84164351851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,59922b95a9cf4fbdfeccf02975a1bc41df00a6a1,2021-11-17T17:52:49+08:00,annie,annie@appflowy.io,[flutter]: update windows crate type,95.69965277777777
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5ee37972efb976fa18ea6b6c63a18194503a05c8,2021-11-17T21:45:18+08:00,Alex to,pdckxd@gmail.com,"#19 - [FR] Successfully to build workable version for windows (Rust target: x86_64-pc-windows-msvc), request to contribute
+
+1. scripts\flowy-tool\Cargo.toml
+  - Remove shell dependency which does not support windows
+2. scripts\makefile\env.toml
+  - Enhance environment checking for building app on windows
+3. scripts\flowy-tool\src\util\file.rs
+  - Trim unnecessary prefix ""\\?\"" for std::fs::canonicalize(root) on windows
+4.  scripts\makefile\flutter.toml
+  - add dependency for ""tasks.appflowy-windows"" to copy dart_ffi.dll from rust build folder to flutter build folder
+5. scripts\flowy-tool\src\proto\proto_gen.rs
+  - Remove dir by using platform independent code rather than calling *nix shell command
+6. scripts\makefile\protobuf.toml
+  - tasks.gen_dart_event: call duckscript to gen_dart_event on windows platform",95.53820601851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6536098b389531248aa8be1b8ade107b2591cfde,2021-11-17T22:07:42+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #21 from pdckxd/main
+
+#19 - [FR] Successfully to build workable version for windows (Rust t…",95.52265046296296
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,93ce7d3b7d1231fb92630b1e3ade5ddb1aa0a87b,2021-11-17T23:14:27+08:00,annie,annie@appflowy.io,[flutter]: add appflowy icon to windows platform,95.4762962962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,fc5e82d169d55813f17be48bc095176a838766cf,2021-11-17T23:43:49+08:00,Alex to,pdckxd@gmail.com,"Fix task dependency order problem. Extract step of ""vcpkg install sqlite3:x64-windows-static-md"" from task ""install_diesel.windows""",95.45590277777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5a1e059a78dcc2900afc1f0eb931dcf31507ad71,2021-11-18T00:00:31+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #22 from pdckxd/main
+
+Fix task dependency order problem. Extract step of ""vcpkg install sql…",95.44430555555556
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,58078c26dbef2a1de49c088fdf7d35a13f8a82f4,2021-11-18T16:18:20+08:00,annie,annie@appflowy.io,[flutter]: support dev build window,94.7652662037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b7a40a7cda01ed4eaf905cff00d4db8faf5c62e8,2021-11-18T16:19:40+08:00,annie,annie@appflowy.io,Merge branch 'main' of https://github.com/AppFlowy-IO/appflowy,94.76434027777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0b6d52cb469ab12ad3b0d11c91656021b53379d1,2021-11-18T23:06:42+05:30,Akshay Bengani Rirev,62542935+akshay-rirev@users.noreply.github.com,[DOCS] Added Command line source update command,94.37751157407408
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2b9367aa40636eb1d7aca6acc4b5a7b6017c8625,2021-11-19T07:59:39+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #29 from akshay-rirev/patch-1
+
+[DOCS] Added Command line source update command",94.11157407407407
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d965d26e6035d753427d7c200b18de20920500b3,2021-11-19T12:09:56+08:00,Alex to,pdckxd@gmail.com,"Enable Linux build
+
+1. BUILD_ON_LINUX.md is instruction of building Linux version
+2. Update toml files in scripts/makefile/ and /Makefile.toml to support Linux
+
+Building Windows/Linux release version is verified
+Didn't get chance to verify building macos version",93.9377662037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5076a6cb384415f4a61a5a76cf92f911803960b9,2021-11-19T12:43:39+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #34 from pdckxd/main
+
+LGTM!",93.91435185185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,9474f1f722c205720d529f83261c6e48cd946452,2021-11-19T14:03:17+08:00,appflowy,annie@appflowy.io,[flutter]: delete conflict files,93.85905092592593
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,49cbc6c1b36c3bba3227c34546a80e4d720c2363,2021-11-19T14:03:36+08:00,appflowy,annie@appflowy.io,[flutter]: revert to remote files,93.85883101851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7c6062604948f87ffa3266e0b8a277b3b0b78b9a,2021-11-19T14:16:07+08:00,appflowy,annie@appflowy.io,[rust]: refactor flowy-document crate,93.85013888888889
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,91c9f2c62f5c1c4a0d9cc09f31465562ab0efb4a,2021-11-19T14:16:15+08:00,appflowy,annie@appflowy.io,[rust]: rename some crates,93.8500462962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c64ef55d6013b9aaf9dca2226dde22b75071119f,2021-11-19T14:16:22+08:00,appflowy,annie@appflowy.io,[rust]: rename some flowy-xx to lib-xx,93.84996527777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7bd2773cf28f1cd7689d27593cde5c62b72e01d2,2021-11-19T14:16:28+08:00,appflowy,annie@appflowy.io,[rust]: fix test crate issues,93.84989583333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,80d1b3072de4885f2b1d074059d68134c5522005,2021-11-19T14:16:35+08:00,appflowy,annie@appflowy.io,[rust]: rename backend test code,93.84981481481482
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2449e9352ca8dbf2ec0f041a8cd49b91e8b59860,2021-11-19T14:38:11+08:00,appflowy,annie@appflowy.io,[rust]: Crates start with lib consider as foundation libs,93.83481481481482
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ba67652e2981ae886143dccfe646b35b0ad57dd5,2021-11-19T15:00:51+08:00,appflowy,annie@appflowy.io,[rust]: update dart-notify crate name,93.81907407407408
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a06a2b9e5b5c47796be767d8c4e1a8adce9903d5,2021-11-19T15:04:56+08:00,appflowy,annie@appflowy.io,[rust]: update flowy-log name,93.81623842592593
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f474476e24c3545b30745c337c923555b5f9ecde,2021-11-19T10:23:58+03:00,Khoshbin Ali Ahmed,xoshbin@gmail.com,Fixed a typo,93.80302083333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8660ade554ff91b7cdc5a6b1fa0784a0aa54e03b,2021-11-19T17:34:49+08:00,annie,annie@appflowy.io,[flutter]: add aarch64 script,93.71215277777777
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c25153e6669d3a6d0ca9c5dfd6b2965bd9e405a2,2021-11-19T19:35:40+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #35 from Xoshbin/patch-1
+
+Fixed a typo",93.62822916666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,447766f9cb611b162bd27149e6924a37597cb8f6,2021-11-19T22:40:57+08:00,annie,annie@appflowy.io,[flutter]: support debug on linux-aarch64,93.49956018518519
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0fc09dcb5385b405cd6c66622eaa00311342b177,2021-11-19T22:43:03+08:00,annie,annie@appflowy.io,Merge branch 'main' of github.com:AppFlowy-IO/appflowy_client into main,93.49810185185186
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f93f012bc8ae292c940e6b1cf660bf692245254e,2021-11-20T08:35:04+08:00,appflowy,annie@appflowy.io,[rust]: rm flowy-net,93.08697916666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8f1d62f11558c00c97ad197753f1deae979c5b83,2021-11-20T09:34:43+08:00,appflowy,annie@appflowy.io,add frontend folder,93.04555555555555
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,55c05364dd50a21c2e56959a3b5aba852fb2f2b1,2021-11-20T09:35:16+08:00,appflowy,annie@appflowy.io,Merge branch 'develop',93.04517361111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8fc2089d51ff1df45b62d941da331d3ab527f3f2,2021-11-20T09:49:48+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update ci.yaml,93.03508101851853
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,be23b4cc5a9a391b7dbe837429c95e2b701fe055,2021-11-20T09:53:37+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Create frontend_test.yml,93.03243055555555
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8e994a954ee41d918d34ff4fa48d45eaf56c3b7f,2021-11-20T10:52:39+08:00,appflowy,annie@appflowy.io,add shared-lib folder,92.99143518518518
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,89bbd5b8933b9a6de86c99936c1b282378ad1144,2021-11-20T10:54:51+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update frontend_test.yml,92.9899074074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,461a4ddb3ff687af9606b000abaefffe2f279825,2021-11-20T10:56:37+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update and rename frontend_test.yml to integration_test.yml,92.98868055555556
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7d5c002952bf41e481e5e2c2e218f895441054d7,2021-11-20T11:27:02+08:00,myl7,myl@myl.moe,Bump sqlx-cli version to fix its compiling error when installing,92.96755787037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0888e7afbd609e3fad777b09438f8516ec35c260,2021-11-20T12:12:41+08:00,appflowy,annie@appflowy.io,update script description,92.93585648148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2a1c5a3420fdff76d3869c3bb70a8298ba438cb8,2021-11-20T12:36:46+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #44 from myl7/bump-sqlxcli
+
+Bump sqlx-cli version to fix its compiling error when installing",92.91913194444444
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,3038dc3c93ddc34e30d9a633aecd35e48bdf4661,2021-11-20T13:20:24+08:00,appflowy,annie@appflowy.io,update README,92.88883101851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,704035e070d6bfc938391d9687e50f7e1e8a2b15,2021-11-20T14:19:38+08:00,appflowy,annie@appflowy.io,[flutter]: lock flutter package big version,92.84769675925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,81511764c4aa025ba75b10b079b98df8d8b579b2,2021-11-20T14:30:25+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Delete integration_test.yml,92.84020833333334
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7f70036951fb056f8a6a6819ae210a35288406ef,2021-11-20T14:30:32+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update ci.yaml,92.84012731481481
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d3dd3e229dc9a1513d75bd15f713450e0fc25ce7,2021-11-20T01:31:39-05:00,Ray,7869818+rayrrr@users.noreply.github.com,"Rename BUILD_ON_WNIDOWS.md to BUILD_ON_WINDOWS.md
+
+tiny typo fix :)",92.83935185185184
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0dcaa6be2f7f760cbcbe9e5d85d0aa70fcd410e6,2021-11-20T14:35:44+08:00,Alex Chen,pdckxd@gmail.com,"[Build] Fix Linux build instruction
+
+1. BUILD_ON_LINUX.md
+  - Remove brew dependency
+  - Update command for development in step 9 & 10
+2. Fix file name typo for BUILD_ON_WINDOWS.md",92.83651620370371
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,01cc16d50f273f76d3ed3ca79b6fb1a0c3cefbc7,2021-11-20T14:39:16+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #48 from rayrrr/patch-1
+
+Rename BUILD_ON_WNIDOWS.md to BUILD_ON_WINDOWS.md",92.8340625
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,910a70fb41f1685a1a4dcaf7e5259706ac73c2a4,2021-11-20T14:41:27+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update ci.yaml,92.8325462962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4b1010fb13e9089937f769d69d9167c3870edb94,2021-11-20T14:42:54+08:00,Alex Chen,pdckxd@gmail.com,Merge branch 'AppFlowy-IO:main' into main,92.83153935185184
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e5d85810916ae3eec7f2f3ece9055d8a8f1bb69b,2021-11-20T14:56:53+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #49 from pdckxd/main
+
+[Build] Fix Linux build instruction",92.8218287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,502229adb88cca2be0c6428251aa71093c87fbc9,2021-11-20T15:08:33+05:30,Tarunav BA,tarunavba@gmail.com,"Update README.md
+
+Change from Visual Studio to Visual Studio code as in the screenshot.",92.70956018518518
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d4fc1b91261b8575716476aa00a967c43367e43e,2021-11-20T17:56:31+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #51 from TarunavBA/patch-1
+
+Update README.md",92.69708333333334
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4beeffbc3722ee67cb05c29cb35f80fc19fcec2d,2021-11-20T20:49:48+08:00,Annie,anqi.annie.wang@gmail.com,Update CONTRIBUTING.md,92.57674768518518
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,702a04ab2447f9b0c469b6e45617a17c8d786e39,2021-11-21T09:34:32+08:00,Alex Chen,pdckxd@gmail.com,"[Build] Fix build instruction to meet the update of folder structure update
+
+1. frontend/scripts/flowy-tool/Cargo.toml
+  - fix flowy-ast module path
+2. frontend/scripts/makefile/protobuf.toml
+  - fix derive_meta path",92.04568287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,673afa1fcb27e603207e6a6513d2945d7508001c,2021-11-20T19:06:24-08:00,Stephen,stephengroat@users.noreply.github.com,add linux build,91.98188657407407
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,35f4aa64c4d091e26df599992fa4018a4a17687a,2021-11-20T19:08:41-08:00,Stephen,stephengroat@users.noreply.github.com,fix runner type to ubuntu,91.98030092592593
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c6524b273fe4286d12219b230ed0e70a2a0ed237,2021-11-20T19:09:43-08:00,Stephen,stephengroat@users.noreply.github.com,apt-get update,91.97958333333334
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a008cb6bd5f5fc23b16033a1a293f04a76245a47,2021-11-20T19:13:04-08:00,Stephen,stephengroat@users.noreply.github.com,try passing arg to sh,91.97725694444445
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b0ab6bdd4b3c82bd87f03c75c22700ebad6e9bff,2021-11-20T19:15:01-08:00,Stephen,stephengroat@users.noreply.github.com,try bash syntax,91.97590277777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d4432eabb98864164efa0e43fccb3bf7cb7e4eb2,2021-11-20T19:31:37-08:00,Stephen,stephengroat@users.noreply.github.com,move to frontend,91.964375
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ac9a89fdcab47307368ab372cd89938763ef0578,2021-11-20T19:47:31-08:00,Stephen,stephengroat@users.noreply.github.com,install dart,91.95333333333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ccf7ff888887d13b6173c453d4a92fda18c26a57,2021-11-20T19:53:26-08:00,Stephen,stephengroat@users.noreply.github.com,cleanup build steps,91.94922453703704
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e713a6dfc617c7ae7921f8ff62db1d11abdecd19,2021-11-20T20:03:15-08:00,Stephen,stephengroat@users.noreply.github.com,move installs,91.9424074074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,169f1e2c44e0b01f1ab0f98cb1977ddf9247e661,2021-11-20T20:23:16-08:00,Stephen,stephengroat@users.noreply.github.com,"add another relative path
+
+not sure why",91.92850694444445
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,43248970541f8cf9df73d982ffb49fb2166ca49e,2021-11-20T20:38:37-08:00,Stephen,stephengroat@users.noreply.github.com,add to github path,91.91784722222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a535b8585f96bafb4691b8a4d0f0f7e36d793afc,2021-11-21T13:50:31+08:00,appflowy,annie@appflowy.io,mark caro make pb as optional action,91.86791666666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,151720288914189854bd84f4510e34365a9e268f,2021-11-21T13:52:15+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #54 from pdckxd/main
+
+[Build] Fix build instruction to meet the update of folder structure …",91.86671296296296
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,09358570b3eace58aac17576e0467b4c897776d5,2021-11-21T15:28:07+04:00,Vladislav Nepogodin,nepogodin.vlad@gmail.com,"fix the docker build
+
+use source from github repo",91.63347222222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6c958cf43d1720579ccdb50adf0368e5440dec69,2021-11-21T20:11:40+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #60 from vnepogodin/main
+
+fix the docker build",91.60322916666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e66c8ac78ed26b495d0847a8663bf223aeab952d,2021-11-21T21:01:24+08:00,appflowy,annie@appflowy.io,"Revert ""fix the docker build""
+
+This reverts commit 09358570b3eace58aac17576e0467b4c897776d5.",91.56869212962962
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f21cd52f264060d159f4a33b44c7bca3a2dab9bb,2021-11-21T19:44:22+04:00,Vladislav Nepogodin,nepogodin.vlad@gmail.com,fix backend build,91.45552083333334
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,32949d0395b1268bf0218bd1416870dad80a2cf7,2021-11-21T08:26:33-08:00,Stephen,stephengroat@users.noreply.github.com,try without protobuf,91.42622685185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4e9472c3e8e09afcf089ae4c9b44a4a2efa86f6a,2021-11-22T08:26:29+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #55 from stephengroat/patch-2
+
+add linux build",91.09293981481481
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,19521bf695a87360250f88e4e11460e6aa33266f,2021-11-22T08:29:42+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Update ci.yaml
+
+add backend ci",91.09070601851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,9453f8a4b77b9544caecb210996fa5ca889e7e04,2021-11-22T08:44:02+08:00,appflowy,annie@appflowy.io,[rust]: remove vecdeque_binary_search feature,91.08075231481482
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0bbf9c3ef114365cf3b74a35ac788d34b8769fe4,2021-11-22T09:01:46+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #66 from vnepogodin/main
+
+fix backend build",91.0684375
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0548546881175b264624f769ce0f0c4f5f360d53,2021-11-22T09:04:52+08:00,appflowy,annie@appflowy.io,[rust]: update actix beta version,91.06628472222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7bf0d8e230f04436cd7fee82b2399edec4c211d1,2021-11-22T10:25:25+08:00,ljshwyykl,73726782+ljshwyykl@users.noreply.github.com,"add install sqlx-cli
+
+add install sqlx-cli",91.01034722222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,24ca6259da1eddab6828fe9cd6e6ae76a0612630,2021-11-22T11:42:53+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #70 from ljshwyykl/patch-1
+
+add install sqlx-cli",90.95655092592592
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,9d5eafc97b4b06286a503649a20e94df1450ee4f,2021-11-22T17:15:45+08:00,Annie,anqi.annie.wang@gmail.com,"Update BUILD_ON_LINUX.md
+
+increase readability",90.72539351851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,538d8916c7fcdc86c4ae94aa3db7756424acc27a,2021-11-22T17:22:59+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #73 from AppFlowy-IO/annieappflowy-patch-docs
+
+Update BUILD_ON_LINUX.md",90.72037037037038
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a216c5241660c2f87f35a056f32fd463d311b114,2021-11-22T18:49:20+08:00,ljshwyykl,73726782+ljshwyykl@users.noreply.github.com,"add Table Struct
+
+add Table Struct",90.6604050925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,9fc5d628b0a30814f3122f1732e281966e62b7f5,2021-11-22T11:53:35+00:00,notd5a-alt,ahmadabushawar21@gmail.com,"changed icon names, removed capitalization and spaces to avoid future problems",90.61578703703704
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,838c85c5f232ab6d4b790e319adf1f574df613f1,2021-11-22T12:13:45+00:00,notd5a-alt,ahmadabushawar21@gmail.com,changed 2 references to HIde and Show into hide and show,90.60178240740741
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b8eedf70c3516b540601b9c1bb7bb56d55e98c74,2021-11-22T21:09:45+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #76 from notd5a-alt/patch
+
+Decapitalized icon names and 4 references.",90.56289351851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,db5d9aa891f12c363ad95906d1459e833e8a90de,2021-11-22T21:23:44+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #74 from ljshwyykl/patch-2
+
+add Table Struct",90.55318287037036
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,91d9516dc7a825480e4a42661c4a1f4853b16f37,2021-11-22T21:24:36+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update ci.yaml,90.55258101851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,dd92d0faf4b2699af3f09b49a5bc730788a9c437,2021-11-23T08:28:59+08:00,Alex Chen,pdckxd@gmail.com,"[Build] Enhance windows build instruction and cargo make scripts
+
+1. doc\BUILD_ON_WINDOWS.md
+  - add command for building development version
+2. .vscode\tasks.json
+  - Enable vscode to launch debug session on windows
+3. frontend\scripts\makefile\env.toml
+  - Fix ""Command : dart not found."" on windows
+4. frontend\Makefile.toml
+  - Change profile name ""env.development-windows"" to ""env.development-desktop-windows-x86""",90.0912037037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,08635f1984118a4eb99bbfb33e271de6cafda20e,2021-11-23T14:26:32+08:00,appflowy,annie@appflowy.io,specify nightly toolchain for rustup-init,89.84290509259259
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5703d7ea9f7b89afc836478205b3abd9df34c396,2021-11-23T14:26:32+08:00,appflowy,annie@appflowy.io,update flutter-quill remote address,89.84290509259259
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0f0dd5755d8dd3e18e00f4f9acb7262f709c73b0,2021-11-23T14:27:50+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #79 from pdckxd/main
+
+[Build] Enhance windows build instruction and cargo make scripts",89.84200231481482
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,fe88e100e285a48598950c60cea4fe142ce04ade,2021-11-23T12:22:43+05:30,Harinandan,harinandan.alukkal@gmail.com,Added fix for cursor appearing below highlights,89.82472222222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b2f3570bbf050e33f557830b9818d53f2a75aeca,2021-11-23T15:30:21+08:00,appflowy,annie@appflowy.io,print the flutter and rust env,89.79858796296297
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1ee5a9402b22f686fbfdb950badbf0031f7cfb67,2021-11-23T16:41:05+08:00,appflowy,annie@appflowy.io,remove install_protobuf task from the flowy_dev,89.7494675925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,9790251aa2a9fc1e044021398c58592845a0a44c,2021-11-23T14:22:42+05:30,Pratik,68642400+pratikbalar@users.noreply.github.com,ci: add depth 1 in flutter git clone,89.74140046296296
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7288224c3e587207561ccb61b935658ea51ce955,2021-11-23T16:54:40+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update ci.yaml,89.74003472222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6c9fa781cfce7dad3e2e4c4825fd45270b8742f0,2021-11-23T17:00:14+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #85 from pratikbalar/patch-1
+
+ci: flutter git clone depth 1",89.73616898148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8acdb82612e3ec38c90c7d2d0ffd9126d89939d5,2021-11-23T17:10:05+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Update ci.yaml
+
+fix build issues",89.7293287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,76c8aa82ad9d411c3ed58818ad34579f763dd648,2021-11-23T17:17:16+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Update ci.yaml
+
+git clone flutter from dev branch",89.72434027777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0d28267386e3850f75bfed5573d4acd470ded851,2021-11-23T17:29:52+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update ci.yaml,89.71559027777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7b47fb5c7f3330c2aa2f9c86a15948a3db5032b3,2021-11-23T17:53:08+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update ci.yaml,89.69943287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ce126fe08dec1af114b272b9c12b7addab809b80,2021-11-23T18:15:33+08:00,appflowy,annie@appflowy.io,[rust]: fix some unuse warniings,89.68386574074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,054fa4c952404019b1b63109a02e729a726d7cec,2021-11-23T18:15:33+08:00,appflowy,annie@appflowy.io,rename some tasks' name,89.68386574074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ce077c059eb4edc6fdc4df7973148ec9f899edaf,2021-11-23T19:05:37+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update ci.yaml,89.64909722222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,93b7cf481bc63807f08ea6d94b0db724dbc9e82e,2021-11-23T19:38:39+08:00,Alex to,pdckxd@gmail.com,"Untrack auto generated files under windows/flutter/. Add below files into .gitignore
+
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugins.cmake",89.6261574074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,fd07d64a7bffc3ae2c452487347e6b0d5fc5d718,2021-11-23T19:42:42+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #84 from pdckxd/main
+
+Untrack auto generated files under windows/flutter/. Add below files …",89.62334490740741
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f45608163c18d160eedc1e32a8fdf01a15d39cb6,2021-11-23T20:04:57+08:00,appflowy,annie@appflowy.io,update native  protobuf tool  version,89.60789351851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,870aa610805ec51efc3aa64562c161e28a139820,2021-11-23T20:05:26+08:00,Alex Chen,pdckxd@gmail.com,fix path issue in .gitignore,89.60755787037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,627aac9a15d3b31235752b9299236bc3e507d8e4,2021-11-23T20:43:29+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #87 from pdckxd/main
+
+fix path issue in .gitignore",89.58113425925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5c5f0f6a1e853e0a94e197a61c595f7ce444163b,2021-11-23T21:08:02+05:30,Hari07,harinandan.alukkal@gmail.com,Merge branch 'AppFlowy-IO:main' into main,89.45991898148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,513df69042f74868e7c493f08ec913df627969b4,2021-11-23T21:11:49+05:30,Harinandan,harinandan.alukkal@gmail.com,Added tooltip to toolbar buttons,89.45729166666666
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,542622c512e737b815789ca278155ee55a49e08e,2021-11-23T21:12:25+05:30,Harinandan,harinandan.alukkal@gmail.com,Merge branch 'main' of github.com:Hari-07/appflowy,89.456875
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a0c59fd61d40eac0ee0ca13aa42f0ce2ab1c3ef7,2021-11-24T10:51:35+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #90 from Hari-07/tooltip
+
+Implemented tooltip on toolbar buttons",88.99217592592592
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2c8cce99e8afeea56422747f348158f49f4fc7de,2021-11-24T11:21:40+05:30,Pratik,68642400+pratikbalar@users.noreply.github.com,ci: integrate better with ghactions,88.86711805555555
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ba5d66cea0e942a76ecf861ff7bc1323ddfa5eb2,2021-11-24T14:07:06+08:00,Alex to,pdckxd@gmail.com,"[Instruction] Enhance BUILD_ON_WINDOWS.md to remove choco dependency
+
+1. doc\BUILD_ON_WINDOWS.md
+2. frontend\scripts\makefile\env.toml
+  - break down install_targets task into 3 platform specific tasks
+  - only install necessary targets for specfic platform",88.85640046296297
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4a72b7a87c051eb32d78727bc473232ed109acba,2021-11-24T23:04:43+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update README.md,88.48305555555555
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,038bf410773126766a92140f801d6a4ebbb52ad0,2021-11-24T22:08:28+03:00,Stanislav,stas.tebloev@yandex.ru,"Add unzip to requirements
+
+When running Step #3 `flutter channel dev` got:
+```Missing ""unzip"" tool. Unable to extract Dart SDK.
+Consider running ""sudo apt-get install unzip"".```",88.31378472222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,688ca90ec8f8a79121a4f2a41de62e6c85a10e25,2021-11-25T08:20:51+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Merge pull request #94 from raydzast/patch-1,88.09685185185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ac32760bfc559ab680ea9db167889a72a663f8a0,2021-11-25T08:21:12+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Merge pull request #93 from pdckxd/main,88.0966087962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,08de5da7162e4be441de18289ce0dd2dfda2d0f7,2021-11-25T08:25:39+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Merge pull request #92 from pratikbalar/patch-2,88.09351851851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e2c2a6602a4a1595b41512e226b4591608694916,2021-11-25T19:20:03+08:00,ljshwyykl,ljs@gmail.com,env file,87.63907407407407
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,35d3224d08cc1f6e8336d945aa6fd57354e4411e,2021-11-25T19:26:16+08:00,ljshwyykl,ljs@gmail.com,.gitignore,87.63475694444445
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0f48d5da537418188aca517f7d7b6423a9d4bacd,2021-11-25T19:33:35+08:00,ljshwyykl,ljs@gmail.com,build doc,87.62967592592592
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b37e636da3eb19020f9689de1d7fd9307bccee21,2021-11-25T21:13:10+08:00,appflowy,annie@appflowy.io,add Cargo.lock to git,87.56052083333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,3648a4205474f0b190582eb0fc77205f0ec34551,2021-11-26T09:48:22+08:00,ljshwyykl,ljs@gmail.com,fix conflicts,87.03607638888889
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,784d51863223750a83593adc7345e0968b444964,2021-11-26T23:01:48+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #96 from ljshwyykl/main
+
+env file",86.48508101851851
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f59cf4eb7187c1d1ca1e11cf382c618153732962,2021-11-26T23:07:35+08:00,appflowy,annie@appflowy.io,remove deprecated flowy_editor,86.48106481481481
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d010211028ceff536cd080c63800a54c094b399b,2021-11-27T09:32:10+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Update ci.yaml
+
+add flutter analyze actions",86.04732638888889
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,3d933082939ce9b201682e838d8e867488b1ec82,2021-11-27T09:55:28+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Update ci.yaml
+
+add Clippy check",86.03114583333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b83ff2c3c515ab65570c93665f5e1143562f79f7,2021-11-27T09:58:56+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update ci.yaml,86.02873842592592
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f8f5b7c2337d4a5c7902aaed9a47a5d44ff5e127,2021-11-27T10:09:38+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update ci.yaml,86.02130787037036
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8d9cde17a9159e7dd69ac77fd7a41e6836f8953e,2021-11-27T10:14:58+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update ci.yaml,86.01760416666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,3abd5b953e9cbde32ebdd11a3137cdf96f40ee96,2021-11-27T19:20:22+08:00,appflowy,annie@appflowy.io,fix clippy warnings,85.63885416666666
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,271cd0dd6154932f6a68116b3ca7c7e8516b2db8,2021-11-27T21:59:20+08:00,appflowy,annie@appflowy.io,mv lib-sqlite to shared-lib,85.52846064814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,172e1ab1de45bafa95331615034e8dd943e581ea,2021-11-28T20:34:03+08:00,Alex to,pdckxd@gmail.com,"[Instruction] Slightly update steps of BUILD_ON_WINDOWS.md
+1. doc\BUILD_ON_WINDOWS.md
+  - rustup.exe with parameter to install rust without prompt
+2. frontend/scripts/makefile/protobuf.toml
+  - add a sub task to check if protoc is presented in PATH",84.58768518518518
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,180b0cd56821da502a71366c4855de5b1af7a802,2021-11-28T23:13:42+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #101 from pdckxd/main
+
+[Instruction] Slightly update steps of BUILD_ON_WINDOWS.md",84.47681712962962
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f9bfe94a6b1f6cf69d72a11cfe79d503c04bfa49,2021-11-29T20:08:02+08:00,appflowy,annie@appflowy.io,fix flowy_tool issues,83.60575231481481
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ed117c4d317c2f505d36bdd5c659e915b801d241,2021-11-29T21:46:04+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Create general.yml,83.53767361111112
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c8a7fb2e2ba9b515e814b5034a9b86f6e9173bcf,2021-11-29T21:46:27+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update ci.yaml,83.53740740740741
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,fc82b2b7e1685f00014306996700b659257581b7,2021-11-29T21:47:40+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Rename general.yml to rust_general.yml,83.5365625
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8940f879355911d017b4d0dd7dc944f6f1a6a6c4,2021-11-29T21:49:22+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Create dart_general.yml,83.53538194444444
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,964aec80669b70cf334694a33b65f028d80a0990,2021-11-29T21:50:36+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update rust_general.yml,83.53452546296296
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1239c9026e0c78c602abe360889ece5909b5ede2,2021-11-29T21:55:28+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update rust_general.yml,83.53114583333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8c54949271fbc76cafece9c341162ebbfb0dec65,2021-11-29T22:01:46+08:00,appflowy,annie@appflowy.io,rust fmt,83.52677083333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c4088622f807f04e663aeb25439c742cbf64946c,2021-11-29T22:01:46+08:00,appflowy,annie@appflowy.io,rust fmt,83.52677083333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0c1263cb78053aaea1a7fafb8eb99fad9fda0025,2021-11-30T15:35:15+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update dart_general.yml,82.79518518518519
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,3363952a23a2e34a9789204d54a919e53e840da3,2021-11-30T15:40:11+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update rust_general.yml,82.79175925925927
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,57f8226b38dd2d58e360369ffd1a09b1b55eea6f,2021-11-30T17:55:25+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update rust_general.yml,82.69784722222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,841d5e6fd0ac773aaffdf8ed575142bf766e8741,2021-11-30T18:08:01+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update rust_general.yml,82.68909722222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,321de104fe21cb90099f7580c649729a57146193,2021-11-30T11:44:13-08:00,Stephen,stephengroat@users.noreply.github.com,"Add brew install instructions
+
+https://github.com/Homebrew/homebrew-cask/pull/115114",82.28895833333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,079f18d727329ab4636868c96ea7a1cbcf5188e3,2021-12-01T10:31:50+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update rust_general.yml,82.0058912037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f22cf6349b79621384ff851c0e70949ecf7a310e,2021-12-01T11:01:03+08:00,appflowy,annie@appflowy.io,update ci,81.98560185185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e763525c58fd0d52fed2e5bc6fe3dc3fd3986ff5,2021-12-01T11:03:52+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update rust_general.yml,81.98364583333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d822f036e0afd0de0c86bc02eab52cbd638f0403,2021-12-01T11:08:37+08:00,appflowy,annie@appflowy.io,speed up ci,81.98034722222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,28f0288526e1b2d5df16a2c042db4c6ac67c9680,2021-12-01T11:11:36+08:00,appflowy,annie@appflowy.io,update rust_general ci,81.97827546296297
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d8171238f2d92e98c42a9f2f38ec8d99f552df2e,2021-12-01T11:22:32+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Create backend_general.yml,81.97068287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2d058ea10075c3e41b1150c2edf13840d181099a,2021-12-01T16:44:58+08:00,appflowy,annie@appflowy.io,config docker ci,81.74677083333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,826be05494135c1842acd7ebfeb4e5dd3b4dd014,2021-12-01T16:47:15+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update backend_general.yml,81.74518518518518
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8259752958b511e363e69c9294b2eadd5359cab1,2021-12-01T17:01:15+08:00,appflowy,annie@appflowy.io,update backend scripts,81.73546296296297
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,aa86a44af8b0ba8cefacec5a5b1e943a2f7f7bcb,2021-12-01T17:03:26+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update ci.yaml,81.73394675925925
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6b7a46e7813ef5c0ed351f4c1b5d22cb9e72d2c2,2021-12-01T17:09:58+08:00,appflowy,annie@appflowy.io,update backend scripts,81.72940972222223
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d6b5e4c404dff65ac23f888071fcadf58272af96,2021-12-01T17:15:46+08:00,appflowy,annie@appflowy.io,update backend scripts,81.72538194444445
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d33f6467900b2ec21bc2baf232d7f010fccbebbd,2021-12-01T10:16:54+01:00,N0x,0xNox@protonmail.com,Update emojis to 13.1,81.72459490740741
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6504863586a6b3a1a47785338c1c1c9fb62f2e8c,2021-12-01T17:23:37+08:00,appflowy,annie@appflowy.io,update backend scripts,81.71993055555555
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e1ed027b9cd68213c8a287d984b3e303c8cc4681,2021-12-01T17:39:23+08:00,appflowy,annie@appflowy.io,update backend scripts,81.70898148148149
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,488ba004564537c159b30b63740ebe7305f6739b,2021-12-01T17:54:14+08:00,appflowy,annie@appflowy.io,update backend_general ci,81.69866898148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d1364354ffb792f798f535d8f52fcbd606b153bb,2021-12-01T20:31:56+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update rust_general.yml,81.58915509259259
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,10febe2497691798bdd65014bbf299b535e460cf,2021-12-01T20:32:17+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update dart_general.yml,81.58891203703703
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,cdc6da835ef5eba900ba45f9eb13c35997a4e43e,2021-12-01T20:33:44+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Rename rust_general.yml to frontend_rust.yml,81.58790509259259
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e46326f775b070ccee6ea4388022d467ce6cd5b7,2021-12-01T20:34:07+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Rename dart_general.yml to frontend_dart.yml,81.58763888888889
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5f064b81188c9b1f8c68cb761b6cfa12b4b4b9e1,2021-12-01T20:51:17+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update backend_general.yml,81.5757175925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8f582faffecc143032104c587b2dc07e4b8103b1,2021-12-01T23:29:51+08:00,appflowy,annie@appflowy.io,add docker-compose,81.46560185185186
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,76c1cd70a59602b1a6415bf8487ac319b227357d,2021-12-01T23:44:38+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update backend_general.yml,81.45533564814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,cb802c3162cb17e375aba12a493a1d883f70f54a,2021-12-02T00:12:35+08:00,appflowy,annie@appflowy.io,update backend_general ci,81.43592592592593
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b17a3f50dbb71a67e73109b17433e2895949aba3,2021-12-02T15:31:40+08:00,Annie,anqi.annie.wang@gmail.com,"Update ReadMe.md
+
+included a link to the Troubleshooting page",80.79767361111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6e51173335bc80f514f08ba5cc12639d16f086c3,2021-12-02T16:28:50+08:00,appflowy,annie@appflowy.io,build docker,80.75797453703704
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6653385a85f5ffb4893cd3435cc2d023ff75f57d,2021-12-02T16:29:31+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #108 from stephengroat/patch-3
+
+Add brew install instructions",80.7575
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,06a91b02fbf072c254adf52b1d3dca1d33427e9e,2021-12-02T16:40:49+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update backend_general.yml,80.74965277777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,24ea68c6058998c7c0644fc86a15d31e9d7c634e,2021-12-02T21:55:23+08:00,appflowy,annie@appflowy.io,build backend docker image,80.53120370370371
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,739333c29c088c1b2c6c346629d4422bcc571dc8,2021-12-02T21:55:23+08:00,appflowy,annie@appflowy.io,fix clippy warnings of backend,80.53120370370371
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,31d3ffb664dc66b3e99b8ca4b7aabbb0e36d26b8,2021-12-02T22:22:46+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update backend_general.yml,80.5121875
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,83b30a21855562be42241cf7d2ba0838d62d1929,2021-12-02T22:40:24+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,set POSTGRES_PORT to 5433,80.49994212962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0999263902644fada1d8140ab3df3848b2bce342,2021-12-02T23:20:03+05:30,Pratik Balar,pratikbalar123@gmail.com,"ci: correct spell, github-actions based  ...
+
+- github-actions based flutter checkout
+- fix 80 column ruler.",80.36824074074075
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,719c2d10c7c0b6c800b56082e2e2947b527acf97,2021-12-03T10:55:07+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #115 from pratikbalar/main
+
+ci: correct spell, github-actions based  ...",79.98972222222223
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,67ef72ee4153dc06937465521decd3bfc988a98d,2021-12-03T10:56:16+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #110 from 0xN0x/main
+
+Update emojis to 13.1",79.9889236111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,643bb25e2b8685fbf924a72de27c991d7f98b5f7,2021-12-03T12:49:05+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update README.md,79.9105787037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2514a656170b4b21ab3661c997df2f0c3599e8fc,2021-12-03T18:13:38+08:00,appflowy,annie@appflowy.io,add rust-toolchain of backend,79.68519675925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6fa7b0632a8405d2d2327118e3d454681b5d718d,2021-12-03T18:13:38+08:00,appflowy,annie@appflowy.io,optimaze docker image size,79.68519675925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e7cc11cc4474287f62f59d227ba169a18ebdf8e7,2021-12-03T22:40:56+08:00,appflowy,annie@appflowy.io,rename some structs,79.49957175925925
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,76691e3e8c7572ae3499ff7454dc13fedf3a5d07,2021-12-04T10:27:08+08:00,appflowy,annie@appflowy.io,rename ffi func,79.0091550925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c649673b2bab332cda34624fa041298cce6c5e02,2021-12-04T11:26:17+08:00,appflowy,annie@appflowy.io,rename flowy-dispatch structs,78.96807870370371
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,63082418be70930f96cfdfc03d3318aa5580c2f7,2021-12-04T17:31:43+08:00,appflowy,annie@appflowy.io,fix generate pb issues,78.71430555555555
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,31efacb274dd289c2fc32d1ec5b0e9fbaceb26aa,2021-12-04T22:31:30+08:00,appflowy,annie@appflowy.io,monitor network state,78.50612268518519
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ce8805aff8edf98bbfbeb3e3cd0d657dc368cb37,2021-12-04T23:54:14+08:00,appflowy,annie@appflowy.io,fix wanrings,78.44866898148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2e7ab3000f3aa2979fa8d09ed959cf3a28bc15cd,2021-12-04T20:52:12-05:00,Daniel Thompson,daniel@ionize.net,"Correct the capitalization of GitHub
+
+To accomplish this task, I ran the following command (on macOS):
+
+    find . -type f -print0 | xargs -0 sed -i '' 's/Github/GitHub/g'
+
+GitHub, for better or worse, decided that the way their company is
+spelled is with a capital ""G"" and a capital ""H"" and it's their name so
+they get to do that if they want.
+
+When I went to check out AppFlowy's web site, I noticed that GitHub
+wasn't spelled correctly, and for me, this made the project feel less
+than polished and myself reluctant to try it out. However, there is only
+one way to find out about the project: I [opened a ticket]. And BAM! It
+was resolved in mere hours by @annieappflowy. Nice.
+
+With fresh motivation to check out the project, I downloaded the app
+and...found myself staring at the same issue on the first screen of the
+app. Well, as I was a bit flippant with the issue I opened up for the
+web site misspellings, I decided to fix this one myself.
+
+[opened a ticket]: https://github.com/AppFlowy-IO/appflowy/issues/118",78.03341435185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b701abed125bee220e700164f4f42b82bfe9c722,2021-12-05T10:50:56+08:00,Annie,anqi.annie.wang@gmail.com,"Merge pull request #120 from factotvm/capital-improvements
+
+Correct the capitalization of GitHub",77.99262731481481
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,bb07eeb2e207a4f3f350b83816b92c17a929d14e,2021-12-05T14:06:10+08:00,appflowy,annie@appflowy.io,move network state to lib-infra,77.85704861111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,90b5eca5d9797ce9d7d23bc20572eb56c37e7f7b,2021-12-05T14:06:10+08:00,appflowy,annie@appflowy.io,fix compile errors,77.85704861111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ee9884ba34f7ffd3fda5f781f1e81f3ba3907145,2021-12-06T00:44:51+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update ci.yaml,77.41351851851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,52d510691fff5b837286a860acf319d8b3c865a3,2021-12-06T00:45:07+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Create ci.yaml,77.41333333333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5a896559823292c405cac6828b3d68d6db487ec9,2021-12-06T08:35:17+08:00,appflowy,annie@appflowy.io,setup flowy sdk server configuration,77.0868287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a935f253445c970fbe4a95eafd2d3ac54b71c024,2021-12-06T08:41:14+08:00,appflowy,annie@appflowy.io,fix build linux github action,77.08269675925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a519e96b1765ef8dc0eabbe4e39fc7cffa0b7b43,2021-12-06T14:37:37+08:00,muzimuzhi,muzimuzhi@gmail.com,docs: s/APGL/AGPL/,76.83520833333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,90cac1819a9f54845abd2e38eade4334b9cda955,2021-12-06T15:06:27+08:00,Annie,anqi.annie.wang@gmail.com,"Merge pull request #123 from muzimuzhi/patch-1
+
+docs: s/APGL/AGPL/",76.81518518518519
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b8ce9b9afb880f28427c045d9af69423582b8218,2021-12-07T22:58:50+05:30,Irfan Backer,irfanbacker@hotmail.com,Setup basic i18n configs,75.38297453703704
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2aaa076592ee69e59edcd725298dc03f420ae596,2021-12-07T23:01:23+05:30,Irfan Backer,irfanbacker@hotmail.com,Add default en translation for i18n,75.3812037037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e28b1ab8b351334ca5dd6e260d6483879d3b443f,2021-12-08T08:56:58+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #129 from irfanbacker/i18n-patch
+
+Add i18n support",75.07177083333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,cea83238ebed8742efc1d56b5ab8d7ffc8469e0b,2021-12-10T11:20:21+08:00,appflowy,annie@appflowy.io,update ignore,72.97219907407407
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,29c14949cb9ad22d3dd34b60c9eb767d63c1958c,2021-12-10T11:20:29+08:00,appflowy,annie@appflowy.io,reanme flowy-workspace to flowy-core,72.97210648148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6298a0d96d7b6233fdfeaeaf12d793836f96553f,2021-12-10T11:20:52+08:00,appflowy,annie@appflowy.io,add core,72.97184027777777
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8457682092fbc27a072ae11f7502f11d721d4287,2021-12-10T11:21:06+08:00,appflowy,annie@appflowy.io,refactor backend dir hierarchi,72.97167824074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2f413a8e670556571d1604ec2463a8d85b5b636b,2021-12-10T11:21:17+08:00,appflowy,annie@appflowy.io,generic lib-ot,72.97155092592592
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8a9a23ddbee9c21e9fe481a329aba914a1b17a35,2021-12-10T11:21:25+08:00,appflowy,annie@appflowy.io,add rich_text crate,72.97145833333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,23f4684d3f361cd8727398b8d8e4acb4cebfeb1a,2021-12-10T11:21:31+08:00,appflowy,annie@appflowy.io,add revision cache layer,72.9713888888889
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4450d4410b801f98c075d96d06e8b6396b7fa945,2021-12-10T11:21:39+08:00,appflowy,annie@appflowy.io,send revision periodically,72.9712962962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7ac55f29db7bdf5a38fb305a259549fd9310cbe9,2021-12-10T11:21:45+08:00,appflowy,annie@appflowy.io,refactor tests,72.97122685185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6b338d4cc55479df6caa0dba41148cf097aefe5a,2021-12-10T11:21:53+08:00,appflowy,annie@appflowy.io,add feature flowy_unit_test,72.97113425925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0172fc71db8a6a7f4fc2a4668090e7e738030248,2021-12-10T11:22:00+08:00,appflowy,annie@appflowy.io,stop sync after close the view,72.97105324074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,909406bf08ef3f669d7b1205d16677102b69532e,2021-12-10T11:22:07+08:00,appflowy,annie@appflowy.io,fix bugs & add unit test,72.97097222222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,3fa0f97e748a899d7db23fb5dfed6c0cc72176c5,2021-12-10T11:22:14+08:00,appflowy,annie@appflowy.io,add pb generation log,72.9708912037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,45d9a0918fc76ab216f7361db1e41aea97a515f0,2021-12-10T11:22:21+08:00,appflowy,annie@appflowy.io,add user_id in revision,72.97081018518519
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d283d2920245170a2474c0e413d4b09710866851,2021-12-10T14:43:57+08:00,appflowy,annie@appflowy.io,[flutter]: switch to stable channel,72.83081018518519
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,34441ee07642a0399b6d1c5ddf0e25135878a283,2021-12-10T15:15:33+08:00,appflowy,annie@appflowy.io,add test,72.80886574074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,aeb448c4de65bf12b9bc6635993d17481a2f641d,2021-12-10T22:18:44+08:00,appflowy,annie@appflowy.io,mock websocket,72.51498842592592
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,69ee8aff55861fc24dfb781d40b66adde8d86f3f,2021-12-10T22:48:30+08:00,appflowy,annie@appflowy.io,rename flowy-workspace-infra,72.49431712962964
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b73f35b18cdae33fd574a1efad3f295d24e25565,2021-12-10T23:31:30+05:30,Irfan Backer,irfanbacker@hotmail.com,Add translation guide doc,72.36028935185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c8f6f4861bce9850407f3a3d777107404212d4f5,2021-12-10T13:16:41-05:00,Mike,mike@wallacehub.com,"Marked Arch Linux as being verified (however protobuf isn't working yet)
+Restructured the steps to better separate concerns
+Added instructions for Arch Linux
+Highlighted some steps that may be overlooked by someone who already has Flutter installed (or that I found confusing during installation
+Moved environment settings to Step 5",72.34974537037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,85cc9b60d96ed94a709c1bf48d4b18a16ee1a49d,2021-12-11T10:16:12+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #132 from irfanbacker/translation-doc-patch
+
+Add translation documentation",72.01674768518518
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d80061461bdeba6376888619bb667d406d10063d,2021-12-11T13:47:16+08:00,appflowy,annie@appflowy.io,add flowy-collaboration crate,71.87017361111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d3bfca10e92707a385706a3ea8f2cbc98b9bf1ee,2021-12-11T17:48:39+08:00,appflowy,annie@appflowy.io,refactor backend editor,71.70254629629629
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,31ced8bde707f776f3b236fb0b6c6dfdb5dbc20f,2021-12-11T09:07:24-05:00,Mike,mike@wallacehub.com,Removed lines concerning yaml backend,71.52285879629629
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c2f4ee4cacc11b694b64bd3a75d92efb71d4b596,2021-12-11T22:29:02+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #133 from MikeWallaceDev/linux-docs
+
+Updated Linux build document",71.50783564814814
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,66defa85f625debc0cd8d9b31e7e35101f16ade0,2021-12-11T23:15:11-05:00,Mike,mike@wallacehub.com,"Edited Linux Instructions
+Fixed the numbering (Github doesn't do numbering correctly...)
+Added step showing how to start coding in VS Code
+Changed server step from Optional to TBD",70.93412037037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,94dc76d1a9ad4f524438b3eb9d67e3014f2b14da,2021-12-11T23:38:49-05:00,Mike,mike@wallacehub.com,"Fix build_sdk.sh
+Fixed a typo (aarch64 -> x86)
+Since I was here : Capitalized the OS names",70.91770833333334
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,90e3ba14f1929fdd26d462cf276003a8efb2f8b3,2021-12-12T12:41:16+08:00,appflowy,annie@appflowy.io,mv server's DocManager to flowy_collaboration crate,70.91600694444445
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0231ad3adf6fea1f8c5a8dddc136d630ca866336,2021-12-12T16:02:58+08:00,appflowy,annie@appflowy.io,add doc persistence trait,70.7759375
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,54cd9eca8c2dfe6b0f64d6c93d5e97b4549c287d,2021-12-12T20:57:41+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #135 from MikeWallaceDev/FixBuildSdkSh
+
+Fix build sdk sh",70.57127314814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,dfa9c04f5a2b07f0c9f44b564e547ad099f4951f,2021-12-12T21:18:23+08:00,appflowy,annie@appflowy.io,mv kv to flowy-database,70.55689814814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,df432d11c38c367c7d48b7cf58d98e46f4f953cc,2021-12-12T21:48:52+08:00,appflowy,annie@appflowy.io,add flowy-net crate,70.53572916666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ab214d4a74e877103990a50b598b4be0ba4bd218,2021-12-12T23:37:34-05:00,Mike,mike@wallacehub.com,Added missing attributes to markdown renderer,69.9185763888889
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,31086ad4df1326aaf7854accc13baf8c41518ba7,2021-12-13T13:55:44+08:00,appflowy,annie@appflowy.io,add mock server,69.86429398148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,bf344685e682763a3145daffa0d96ea7ebe9c147,2021-12-13T19:40:05+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #137 from MikeWallaceDev/ExportToMarkdown
+
+Added missing attributes to markdown renderer",69.62516203703704
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5b7e6690f8f7116a21f5c4194616cb5ea97c8e13,2021-12-13T22:46:35+08:00,appflowy,annie@appflowy.io,test sync,69.49564814814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8adc4501ef906c770963cc8b31f1495990c55d79,2021-12-13T23:21:37+08:00,naughtz,naughtz@163.com,"Add i18n/zh-CN support
+
+add language support(chinese)",69.47131944444445
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5946dd0b7bae11b52ab099d68973f2f6e077afc5,2021-12-13T16:50:04-05:00,Mike,mike@wallacehub.com,"Changed string ""Untitles"" to ""Untitled""",69.2015625
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,72fef86e288336706670da856a2845b31b186125,2021-12-14T11:03:03+08:00,Annie,anqi.annie.wang@gmail.com,"Merge pull request #142 from MikeWallaceDev/Fix_typo_issue_140
+
+Changed string ""Untitles"" to ""Untitled""",68.98421296296296
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a5facab7e316c3976919aac4718dfeee4c472eaa,2021-12-14T11:54:25+08:00,naughtz,naughtz@163.com,Add space between English word and Chinese charactor,68.94854166666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6f05d317e93849072a346b0b832db18e478ae08e,2021-12-14T12:52:20+08:00,Hans,weartistt@gmail.com,Fix spelling,68.90832175925927
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,75f021744b0cebc5f55f08dccafc81dd0d5906f7,2021-12-14T12:55:49+08:00,Hans,weartistt@gmail.com,fix spelling,68.90590277777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,72a8f7a9e3ac9d62ec91bf74e383550abd94e9ba,2021-12-14T15:31:44+08:00,appflowy,annie@appflowy.io,mv websocket to flowy-net crate,68.79762731481482
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2e24ae65fd5430273aaf091dd01ecd56c459d7bf,2021-12-14T17:34:11+08:00,naughtz,naughtz@163.com,build on windows 10 X86_64 verified,68.71259259259259
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,013d8f753aa84f91dec2cfcba568886d17d10a91,2021-12-14T18:20:07+08:00,appflowy,annie@appflowy.io,refactor errors,68.68069444444444
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1b1ab4ad26cc95b2be4d520023e1ae213e8da12b,2021-12-14T18:22:10+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #150 from slidoooor/main
+
+Fix some spelling errors",68.67927083333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c93e73d3d13790caca6b7db68ba87f6dfb53b2c4,2021-12-14T18:22:59+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #152 from naughtz/Windows10X86_64_verified
+
+build on windows 10 X86_64 verified",68.6787037037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,84d5d2c2f19e929b91606bdde9f2feadd0bead39,2021-12-14T20:50:07+08:00,appflowy,annie@appflowy.io,start ws connect after sign up,68.57652777777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a8b42cbc9533f1c5c41bfb6bfbd806301977d0b4,2021-12-14T21:15:11+08:00,Naughtz,naughtz@163.com,Merge branch 'AppFlowy-IO:main' into main,68.55912037037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,446da062121e87c9fca2a7cc727267d79ddb7b94,2021-12-15T08:48:24+08:00,Annie,anqi.annie.wang@gmail.com,"Merge pull request #139 from naughtz/main
+
+Add i18n/zh-CN support",68.07771990740741
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ef6e777ec057c474f7d32ca5d114271a086c430f,2021-12-15T16:28:18+08:00,appflowy,annie@appflowy.io,fix warnings,67.7583449074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,511b6658a45d18fb2b731c18ef4ec3c7106292a5,2021-12-15T23:01:50+08:00,appflowy,annie@appflowy.io,md5 for consistency check,67.48505787037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,869399eb16dc3b224a90eea4c867f59d39b1d4e7,2021-12-15T16:30:50-05:00,Mike,mike@wallacehub.com,"Added references to the Linux and Windows build instructions
+Added temporary instructions for how to install on Linux and Windows",67.21491898148147
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4a49669cc555f67d0d37129749d0d9614ca8a55d,2021-12-15T17:41:02-05:00,Mike,mike@wallacehub.com,"Put the steps for existing translations first, this will be the most used case.
+Simplified the wording of the 'add new language' case.",67.16616898148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,72a851bd7ecaa23cf6c83551c29ec55605054929,2021-12-15T19:15:51-05:00,Mike,mike@wallacehub.com,Fixed some grammar,67.10032407407408
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b413fade9178ae79e2a292579a7bab4594add95f,2021-12-15T20:56:21-05:00,Mike,mike@wallacehub.com,"Added AppFlowy logo at top of page
+Simplified and removed a lot of duplication
+Change the order of things to make the contributions go from easy to hardest
+There were many redundant sentences. Like explaining what to put in a Bug Report when we already have a template for that. People can see. :D",67.0305324074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,9b85349650a2df0a0623e5e10565c2f041db224f,2021-12-15T21:09:35-05:00,Mike,mike@wallacehub.com,Forgot to hit Ctrl-S on my last change!,67.02134259259259
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4a46bf3fa30fa4caed54b2d748ea7c15d1d797e7,2021-12-16T21:31:36+08:00,appflowy,annie@appflowy.io,refcator web socket message sent logic,66.54771990740741
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6f5e19d053c61362a4ac405b08ea9dc6d3fcec42,2021-12-16T21:37:12+08:00,Annie,anqi.annie.wang@gmail.com,"Merge pull request #160 from MikeWallaceDev/add_linux_to_readme
+
+Improved the main README.md",66.54383101851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,405c618d27d776deb1f76523a52c848faded56b9,2021-12-16T22:24:05+08:00,appflowy,annie@appflowy.io,rename some struct,66.51127314814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a93d7e1987be9e381a2002c0e4416dcbcba368ec,2021-12-16T12:01:26-05:00,Mike,mike@wallacehub.com,Just fixed some grammar,66.40200231481481
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,913da7ce5b29db7bfc15ad076ee670be735f6812,2021-12-16T14:05:42-05:00,Mike Wallace,mike@wallacehub.com,"Add files via upload
+
+Added AppFlowy title image",66.31570601851851
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1744938a515872d446e28807d278327fe01448fb,2021-12-18T00:23:26+08:00,appflowy,annie@appflowy.io,fix bugs,65.4283912037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,327fa0c811b71375ee95ddbd006ce9fc5cf6087f,2021-12-17T14:34:35-05:00,Mike,mike@wallacehub.com,"Makefile.toml
+ - Removed duplicate BUILD_FLAG
+
+flutter.toml
+task copy-to-product-linux now copies desktop file and icon
+- Added create-release-archive task
+- Implemented create-release-archive-linux. Windows and Mac remain to be done.
+
+Added appflowy.desktop.temp file.",65.29564814814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,cdb36f9526505ce765067e957c3a88bad2c42013,2021-12-18T09:26:44+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #178 from MikeWallaceDev/add_linux_desktop_file
+
+Add linux desktop file",65.05109953703703
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d445aeb30485d2bf0bf9a7529e0d5185e6027995,2021-12-17T22:21:11-05:00,Mike,mike@wallacehub.com,"Build system will now detect OS and pass it down to build_sdk.sh.
+
+build_sdk.sh will now automatically choose the correct cargo-make command line based on the OS",64.97162037037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,fc74b2b9625edf2dec769f6eb66e856d79891d4e,2021-12-17T22:31:01-05:00,Mike,mike@wallacehub.com,"Build system will now detect OS and pass it down to build_sdk.sh.
+
+build_sdk.sh will now automatically choose the correct cargo-make command line based on the OS",64.96479166666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7a264dba6a3dcb5fd1e149ff26d46a7a1318e4cc,2021-12-17T22:48:07-05:00,Mike,mike@wallacehub.com,"Build system will now detect OS and pass it down to build_sdk.sh.
+
+build_sdk.sh will now automatically choose the correct cargo-make command line based on the OS
+
+# Conflicts:
+#	frontend/scripts/build_sdk.sh",64.95291666666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,baade1f5d4c1d4f35238d0d1df84666a46265be9,2021-12-18T12:21:30+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #179 from MikeWallaceDev/automate_build_sdk_sh
+
+Automate build sdk sh",64.92973379629629
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,987a246c80aeacd4e296ebbe41873ad4320bd84d,2021-12-18T18:35:45+08:00,appflowy,annie@appflowy.io,send user connect message,64.66983796296296
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,79aa20d6622668f94f2277421296d0cd4319c2e2,2021-12-19T01:50:43-05:00,fabiograz,grf4news@gmail.com,"Italian Translation (#176)
+
+* Italian Translation
+
+* Rename it_it.json to it_IT.json
+
+* Add Italian Translation to app",63.82611111111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,77be3e9c71dbb7adf7c444be208b7fa9b9dcb927,2021-12-19T21:17:45+08:00,appflowy,annie@appflowy.io,send connect message when open the document,63.55733796296296
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,936e1336247941eb80b5eaa051a70ab5e42e8288,2021-12-19T21:29:33+08:00,appflowy,annie@appflowy.io,rename crates,63.54914351851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,16c702b1e180905777076f8e90c0bd88e477403c,2021-12-20T12:06:17+08:00,appflowy,annie@appflowy.io,fix listen on websocket error,62.940300925925925
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f0b61546feeef8a1123056b2a64fdc6030816d13,2021-12-19T23:09:38-05:00,Pablo Castellano,pablo@anche.no,"Fix command in README (#182)
+
+LGTM again!!  :D",62.937974537037036
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ef491f4276d8145ed7b5a4139441e1ee1d3657ee,2021-12-20T14:26:26+08:00,appflowy,annie@appflowy.io,mv lib-sqlite to rust-lib,62.84297453703704
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d3a00b14b02f357a23d2827ed922a76d0ff8e919,2021-12-20T15:37:37+08:00,appflowy,annie@appflowy.io,enable local web socket,62.79354166666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e55b79d3e66861f35178d722cadadd111fb06ccc,2021-12-20T15:38:41+08:00,appflowy,annie@appflowy.io,Merge branch 'feat/online2',62.792800925925924
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b66f46108d2675ad17e600f417f7c2573c300d51,2021-12-20T20:59:33+08:00,appflowy,annie@appflowy.io,disable sync test,62.569976851851855
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b22b8ab3a071afc8409c40c531795a9038e4a5c8,2021-12-20T21:16:26-05:00,Mike Wallace,mike@wallacehub.com,Added two images for the wiki,62.01658564814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b04111e5a3fe26ee816bb18e72c7446de8fe779b,2021-12-20T22:41:06-05:00,Mike Wallace,mike@wallacehub.com,Add files via upload,61.95778935185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d9421f70a0e64b2c90088a4259aee407150248f6,2021-12-21T14:00:41+08:00,appflowy,annie@appflowy.io,refactor backend directory,61.860856481481484
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,adce96f15b929bdb7c5edc009161bc26f1d05632,2021-12-21T14:00:42+08:00,appflowy,annie@appflowy.io,fix generate pb bugs,61.860844907407404
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b25db57fca124338bb66cab1f5fd682d4964defd,2021-12-21T14:00:42+08:00,appflowy,annie@appflowy.io,fix warnings.,61.860844907407404
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7270c578e9e146971ff4e7ff6748a7fd96c59cc1,2021-12-22T22:41:19-05:00,Hari07,harinandan.alukkal@gmail.com,"Increased height of ActionCell (#193)
+
+LGTM!",59.95763888888889
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,9fc13c7d62bafc9d538506135528c61395d93a8d,2021-12-23T14:03:51-05:00,MikeWallaceDev,mike@wallacehub.com,"Fixes #141
+
+removed the SizedBox. Leaving the size to adjust automatically depending on the footer's content.",59.31699074074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,3d67c0698a4cc3d92e54803e1a608c956de9d515,2021-12-23T14:30:03-05:00,Rushi Chaudhari,rushic24@gmail.com,"Added support for docker image in docs/docker-buildfiles (#164)
+
+* added docker
+
+* updated cleaner dockercompose
+
+* readme
+
+* changed docker readme
+
+* noconfirm removed",59.298796296296295
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e0e48f1e99d9a79a2630778cba0c0d72e17df393,2021-12-23T23:47:33-05:00,Mike Wallace,mike@wallacehub.com,"Deleted doc file, it's in the wiki now. (#198)
+
+Move the scripts to the script folder.",58.91164351851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,547be89b7251611ae6316aae572ee5a07ca534a8,2021-12-24T17:08:33+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #197 from MikeWallaceDev/fix_application_menu_size_141
+
+Fix application menu size",58.73039351851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6325bd300bbd71b33b4a4ec722acf8bed1fc87f2,2021-12-24T13:20:48-05:00,Sean Riley Hawkins,42723553+rileyhawk1417@users.noreply.github.com,"[FR] Dark Mode  (#185)
+
+* Rewrote to change with light and dark mode 🔧
+
+* Changed files to match theme switches
+
+* Fixed text color switch
+
+* Configured accent color for trash page
+
+* Configured hover color for dark mode
+
+* Configured container colors for dark mode
+
+* Configured text to switch with themes
+
+* Added values to change with theme
+
+* Configured to work with theme colors
+
+* Text not affected by theme
+
+* Theme can be changed here
+
+* Used gray instead of white color
+
+* Rewrote to change with light and dark mode 🔧
+
+* Changed files to match theme switches
+
+* Fixed text color switch
+
+* Configured accent color for trash page
+
+* Configured hover color for dark mode
+
+* Configured container colors for dark mode
+
+* Configured text to switch with themes
+
+* Restored deleted file
+
+* Rewrote to change with light and dark mode 🔧
+
+* Changed files to match theme switches
+
+* Fixed text color switch
+
+* Configured accent color for trash page
+
+* Configured hover color for dark mode
+
+* Configured container colors for dark mode
+
+* Configured text to switch with themes
+
+* Rewrote to change with light and dark mode 🔧
+
+* Changed files to match theme switches
+
+* Configured accent color for trash page
+
+* Removed file
+
+* Used theme.dart colors
+
+* Removed comments and added colors
+
+* Refactored and added hover colors
+
+* removed generated files
+fixed warnings
+
+Co-authored-by: MikeWallaceDev <mike@wallacehub.com>",58.34688657407408
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c2196c7dbafa45da6ce13b9647a9490db05bcdc7,2021-12-24T13:35:31-05:00,Mike Wallace,mike@wallacehub.com,"Update application_widget.dart
+
+changed the default back to light theme.",58.336666666666666
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,bc645af3e2d370fe0d2ef6a05baad21e784f6593,2021-12-24T19:10:09-05:00,Poly-Pixel,79737178+Poly-Pixel@users.noreply.github.com,"Add debug info button (#189)
+
+* Add debug info button
+
+* Get rid of extra line
+
+* Upgrade to device_info_plus 3.2.0 & format debug info
+
+* Remove unused import
+
+* Use locale translation mechanism",58.10428240740741
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,bda684052365a06b9a189903d5f80939a2ec034c,2021-12-25T20:23:02-05:00,Mike Wallace,mike@wallacehub.com,"Remove generated files (#202)
+
+* deleted generated directory from file system
+
+* Removed generated language files from source control
+Files are now generated when building the app or by launching ""Generate Language Files""
+
+added /lib/generated/ to git .ignore
+added a task to generate language files
+call task from build script
+
+* added pub get to workflow",57.05366898148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,cd85f3f464e3cdcf56b9149e6e8b737e4f12662f,2021-12-28T15:10:53-05:00,Mike Wallace,mike@wallacehub.com,Added a line to update the pacman repository database,54.270439814814814
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,dd5d745c3135b823a85bfae1ce9c710775ee583c,2022-01-02T12:54:49-05:00,Mike Wallace,mike@wallacehub.com,"Theme Toggle Button for AppFlowy. Created by @rileyhawk1417 (#206)
+
+* Added Theme Toggle
+* Modified translations",49.36493055555555
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,da1ed0c3207f0744cdc9e69ae85f684932f2187b,2022-01-02T13:49:36-05:00,Poly-Pixel,79737178+Poly-Pixel@users.noreply.github.com,Update device_info_plus to version 3.2.1,49.326886574074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,da4f7f40e7257d1751d5766fab5c716d713a7b4e,2022-01-03T19:43:21+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #209 from Poly-Pixel/update-device-info-plus
+
+Update device_info_plus to version 3.2.1",48.62289351851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,eb601932ea5916c5b90e8ea4a7fb8a9e18bfbd46,2022-01-03T19:49:25+08:00,appflowy,annie@appflowy.io,add backend kv store,48.61868055555556
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,cb4398eab08f35ed2cdace68d5ce734ffde81a37,2022-01-03T19:49:25+08:00,appflowy,annie@appflowy.io,config document kv store,48.61868055555556
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,777082c8792aa76d34fd581ebf712f4eea1f6e18,2022-01-03T19:49:25+08:00,appflowy,annie@appflowy.io,mv revision to flowy-collaborate,48.61868055555556
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,64ea2d4f3118c7e5cca636ace6b0a9d6fdbea3b2,2022-01-03T19:49:25+08:00,appflowy,annie@appflowy.io,[backend]: refactor document persistence,48.61868055555556
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,463cab6eee8fef44dc42ef36a71ac6350b910a93,2022-01-03T19:49:25+08:00,appflowy,annie@appflowy.io,fix warnings,48.61868055555556
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e069bfb0572f46e4f02590348bc3ea3ed346fbdb,2022-01-03T19:49:25+08:00,appflowy,annie@appflowy.io,test with batch set and batch get revision,48.61868055555556
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,95e0418d970aa215bbe95d09c6c8dd63f1b7b660,2022-01-03T19:50:07+08:00,appflowy,annie@appflowy.io,compare revisions,48.61819444444444
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2b9ce79ed45b2bf2ba4bc70c459b6c122f786cf3,2022-01-03T19:50:07+08:00,appflowy,annie@appflowy.io,refactor flowy-collaboration directories,48.61819444444444
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0c7c3621d7e16cf8b31a185ac780a1cf41d323c7,2022-01-03T19:50:07+08:00,appflowy,annie@appflowy.io,separate DocumentWSData into DocumentWSClientData and DocumentWSServerData,48.61819444444444
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,bbc9190bc06dddb25f0adbb55064f293a4930294,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,add virtual net,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a0e6c61f50640de7d0deec6147edb8fa7e41608f,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,config virtual net,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,049b8828fed080cc2dda3d7ae09376f0c8f3d1f2,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,generic kv,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e4e40ebe20539abcbe8557556a7ea0c5eb62b557,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,reset document data using transaction,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,152cb17701137ac461522581da9f336cd1803989,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,fix bugs,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f17f0dd6cfc8e85e34a679d49230868f33d54fc0,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,fix compile errors,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,282ed9067a0ecdd784f92c4a67cb034d69c51633,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,remove some passthrough funcs,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,45821f00a2357345c6a2f29b0aec116d60348991,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,rename some structs,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,09ef0927f7312e6e67c9d30a1deb55a978557bc0,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,save create default workspace data,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a654623c120f8e0551d4740cdbd19d14e16930d6,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,mv sync seq to revision manager,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,df5266d7c92da24196a0c5e5734344d6de985acb,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,fix https://github.com/AppFlowy-IO/appflowy/issues/196,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,12e8424e8a90a493156916234d36eb90140edb6d,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,send document ping,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1a869c00030dea3cd27441144fe588e6680ab1ed,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,config ping test,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,951584c2abb1e5ac64ec2235739b96c884f0e08b,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,[backend]: fix reset document bugs,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,661940f7283408a2d5cc7c3cca17ddac3392e952,2022-01-03T19:50:08+08:00,appflowy,annie@appflowy.io,fix test bugs,48.61818287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,af08c55ebf4908f5bd7c435b1d68bd3b80c35e89,2022-01-03T20:13:48+08:00,appflowy,annie@appflowy.io,fix fmt warnings,48.60174768518519
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,89bff10c84336027e08fb4f1189d91f3ba0d8403,2022-01-04T11:27:28+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Update README.md
+
+add generate language files instructions",47.96725694444444
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7b772a8a6e8cc0d4ef10977901d8e71f2c8ed05e,2022-01-04T14:23:44+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,Update README.md,47.844849537037035
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,3fd3389f6238a5b4eedb8db9d51f6a669ab02f6b,2022-01-04T22:44:52+08:00,appflowy,annie@appflowy.io,add aliases for protobuf struct,47.49684027777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,96f6a1d37c56c38f976d2219e33c4a0aa8cdec0f,2022-01-04T22:44:52+08:00,appflowy,annie@appflowy.io,remove unuse code,47.49684027777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b354fb79c87ba7ed4dd0fa8eaabf0b76809c7515,2022-01-04T22:44:52+08:00,appflowy,annie@appflowy.io,migrate to flutter_bloc 8.0,47.49684027777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1846f86dd749eaf6c7c601f1aef8338ba69cc79a,2022-01-04T22:54:13+08:00,appflowy,annie@appflowy.io,fix fmt warnings,47.49034722222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2e047de2a241ca33937e27c48225cff9d0c0503e,2022-01-04T23:11:51+08:00,appflowy,annie@appflowy.io,update flutter_bloc version to 8.0.1,47.478101851851854
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,33d82a51041abca0cbfce6ef47e28cd46b1ba2f2,2022-01-05T10:46:17+08:00,appflowy,annie@appflowy.io,fix migrate to flutter_bloc 8.0 CI errors,46.99585648148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ddd0dec5c38e27f1b7885bd090aae95220b8c8b6,2022-01-05T11:34:03+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #211 from AppFlowy-IO/fix_ci
+
+test fix",46.96268518518519
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,85ad90fc51a22882c1706778687f0769a94641c4,2022-01-05T22:39:07+08:00,appflowy,annie@appflowy.io,Try to fix quill-editor load document error. Because Document can only contain insert operations,46.50083333333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,53126c47d11b1302adaaae59a752cf6bb32fbae6,2022-01-05T23:06:26+08:00,appflowy,annie@appflowy.io,rename flowy str iterator,46.48186342592592
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a488944d2c5eed9f9b81ae85af9157506b6426aa,2022-01-05T23:15:55+08:00,appflowy,annie@appflowy.io,Saving the revision in serial,46.47527777777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4fd9388b797087a855edbcfd1c467b9ae19afee6,2022-01-05T23:28:52+08:00,appflowy,annie@appflowy.io,fix clippy warnings,46.46628472222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b239f28d10f924ef0bdc7a136f12c22db4046009,2022-01-05T14:17:27-05:00,Mike Wallace,mike@wallacehub.com,Added Windows script for langage generation (#212),46.307546296296294
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,9ca2d60f3f3c9f3ca45c1776a5cd0ae7494f2883,2022-01-06T12:55:30+08:00,appflowy,annie@appflowy.io,correct the document delta by removing unnecessary op,45.90612268518519
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1cfcbbc35b231121ed7211078e13548619b10ff6,2022-01-06T14:08:45+08:00,appflowy,annie@appflowy.io,add patch for flutter-quill to fix the checkbox customize issue,45.85525462962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,956ad1b590b00e839812f3a864052e9139df2c34,2022-01-06T14:42:17+08:00,appflowy,annie@appflowy.io,replace tag with ref commit-hash to fix some cache issue,45.83196759259259
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2a134bcb401f25f836e6c913778f171f94837b0d,2022-01-06T12:18:35-05:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"fix light theme issues (#215)
+
+* fix light theme issues
+* rm hoverColor in ThemeData",45.390092592592595
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,28d8a3a26980cd873786c4a17d51689a5f847e84,2022-01-07T23:42:12+01:00,fabiograz,grf4news@gmail.com,"Update it_IT.json
+
+Changed:  lightMode, darkMode, instruction1, instruction2,  instruction4",44.165358796296296
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f66ea6d224e9534eecd27600374ccc1bbfae9494,2022-01-08T21:04:55+08:00,Annie,anqi.annie.wang@gmail.com,"Merge pull request #248 from fabiograz/main
+
+Update it_IT.json
+@fabiograz thanks!",43.56625
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,287698be9e08ac640e7eeb6fe5de1f54be4d6b5f,2022-01-09T11:17:38+08:00,appflowy,annie@appflowy.io,enable local ws,42.97408564814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1e0cef41a933ac04af06dab211251a80794c6352,2022-01-09T11:17:48+08:00,appflowy,annie@appflowy.io,init server with dispatcher's runtime,42.97396990740741
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c456687a18ef36769fea5c665398a9181626b18e,2022-01-09T11:23:31+08:00,appflowy,annie@appflowy.io,"1. rename flowy_str functions
+2. mv the document_test to flowy_document crate",42.97
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7e7254b306701ce758816a3f00dba4005c5536d7,2022-01-09T11:23:37+08:00,appflowy,annie@appflowy.io,"1. fix the potential infinite loop when composing delta. Because of calculating the wrong code unit offset.
+2. add test of calculating Chinese character",42.96993055555556
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,08a43c03d4ed65c65dc3adc9a8a8929a67e8c0ba,2022-01-09T16:13:08+08:00,appflowy,annie@appflowy.io,config af log filter,42.768877314814816
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5e56f5e0ecb3900d39a17f8ba8eca0f5a9c9819e,2022-01-09T13:22:17+02:00,Sean RIley Hawkins,rileyhawk249@gmail.com,Fixed Dark Mode Bugs,42.63752314814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,46a3eb57fa84318c067afedddf7acec584489400,2022-01-10T17:39:32+08:00,appflowy,annie@appflowy.io,rename some structs,41.70887731481481
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,95378dd73a73ee2af5d21e811db348dcc14485a2,2022-01-10T17:26:12+02:00,Sean RIley Hawkins,rileyhawk249@gmail.com,Refactored Values,41.46813657407407
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2ae4762de8995c51b207bd177a3e21b7d3ed29b6,2022-01-10T17:26:46+02:00,Sean RIley Hawkins,rileyhawk249@gmail.com,Removed unused imports & Refactored,41.46774305555556
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,855d396122f91128b572fdc25af57ba3ce46b30c,2022-01-10T23:45:59+08:00,appflowy,annie@appflowy.io,refactor cloud service triat,41.45439814814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e7aad4045b7487c0f8e0114403b40109f2b61774,2022-01-11T13:34:45+08:00,appflowy,annie@appflowy.io,remove flowy-user unuse files,40.87886574074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4bdd9df54caa49499a13fae2ee9e321e95b8aea0,2022-01-11T23:15:30+08:00,appflowy,annie@appflowy.io,generic cloud storage,40.47556712962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,60e9071685777296908c479a82c59adab2d855a4,2022-01-12T12:40:41+08:00,appflowy,annie@appflowy.io,add some code documentation,39.916412037037034
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,3c819ead490fcda63586a059258d708b47f0a503,2022-01-12T15:40:06+08:00,appflowy,annie@appflowy.io,stop local websocket before start connecting,39.79181712962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0fba8d91955f90395a6af397a5d6b92998e22eca,2022-01-12T20:48:28+08:00,appflowy,annie@appflowy.io,add server document,39.57767361111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,554cfb53e59ffd5664a10053955c14d861c5af3d,2022-01-12T21:58:04+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #250 from rileyhawk1417/fix_dark_mode
+
+Fixed Dark Mode Bugs",39.52934027777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,718613de42408e00a1a1aac9f58d7a1fc7f5ff06,2022-01-13T11:15:31+08:00,appflowy,annie@appflowy.io,flowy-net impl http and local server,38.97555555555556
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,dac86ef857efa234026d6c53617c36ace2ab421c,2022-01-13T14:48:41+08:00,appflowy,annie@appflowy.io,refactor flowy-core pb,38.827523148148146
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f9b552395b4b209ad971757dafa52c9f9f2a6514,2022-01-14T09:09:36+08:00,appflowy,annie@appflowy.io,trait for flowy-core persistence,38.06299768518519
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,3964508cd80b10830b844044a96be2d674ef4d1c,2022-01-14T16:25:41+08:00,appflowy,annie@appflowy.io,add flowy-sync crate,37.760162037037034
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,13aba928c3d65b0fcac5f0dca2eb2f1231b55378,2022-01-14T21:46:55+08:00,appflowy,annie@appflowy.io,config folder ws,37.537083333333335
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,02201c238cddb7ce12263b5ee6563c58418fd98b,2022-01-15T11:20:28+08:00,appflowy,annie@appflowy.io,refactor synchoronizer,36.972118055555555
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6bca483c28bfe29366c9913dd37f6689b45b6dd9,2022-01-15T23:58:36+08:00,appflowy,annie@appflowy.io,config folder collaboration,36.44563657407407
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,3eff006d6dd6bb95ac6d0949db70d3db5c00d572,2022-01-16T13:44:14+08:00,appflowy,annie@appflowy.io,add root folder test,35.87228009259259
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7f1a0adf135f7beff4b6a9cabc63ac27e345f9e7,2022-01-17T11:55:36+08:00,appflowy,annie@appflowy.io,add folder editor,34.94771990740741
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,cfeb408bab2adbb276b928dbc309d6c70ea7862b,2022-01-18T21:58:40+08:00,nathan,app_flowy@nathans-iMac.local,lock connectivity_plus version,33.52892361111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,44ff74a37c8821410f073696b91112416de5db31,2022-01-18T22:56:57+08:00,appflowy,annie@appflowy.io,using ot to construct the folder,33.488449074074076
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,afeda524192459a6bafe5e97bb4e9d26187c05e0,2022-01-18T23:25:03+08:00,tsuiyuenhong,tsuiyuenhong@gmail.com,Update README.md,33.46893518518519
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b2eb9640457c5795fb064ec18aa0a6f4cc63b713,2022-01-19T07:54:55+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #260 from tsuiyuenhong/main
+
+Update README.md",33.11486111111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,01d28609485819aad2b4238e617d55c7ceb29f6b,2022-01-19T10:26:46+05:30,Harinandan,harinandan.alukkal@gmail.com,Basic Setup of Settings Dialog,32.90524305555556
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,03e58a90d2101095e6420385163d85a4307c8832,2022-01-19T10:27:35+05:30,Harinandan,harinandan.alukkal@gmail.com,Cleanup imports,32.90467592592593
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0ed1847672bf26396b072a32eeecca75d38144fd,2022-01-19T10:29:02+05:30,Harinandan,harinandan.alukkal@gmail.com,Refactor Settings Menu Element into seperate file,32.90366898148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,324dc53e5f7d67d9db8fe2b221e6290458831b3c,2022-01-19T16:00:11+08:00,appflowy,annie@appflowy.io,add folder migration & add folder unit test,32.77787037037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,fd98b192afbc18f8d3ae5d4373c9858b1ae54334,2022-01-19T14:11:33+05:30,Harinandan,harinandan.alukkal@gmail.com,Added adaptive theme and change theme button,32.749143518518515
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,907b10b783750c1473a8384dc49874019fe17361,2022-01-19T23:52:12+05:30,Harinandan,harinandan.alukkal@gmail.com,Added constrained box,32.34591435185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c1ccad104b15960f46e928da8a835f3a1d0dfbb2,2022-01-20T08:13:38+05:30,Harinandan,harinandan.alukkal@gmail.com,Fixed adaptive Size issue,31.99769675925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ffa9d7bbf422efb8953df31189992a8bf72fc09b,2022-01-19T21:49:27-05:00,MikeWallaceDev,mike@wallacehub.com,"Update the readme file
+Remove installation instructions and point to documentation instead. This removes duplication, and reduces errors.
+
+Change the order of the intro texts
+
+Added cargo-make in the attributions",31.993657407407408
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8c17e96c51fda7dc77c0a1da805badb011b8b162,2022-01-20T08:37:47+05:30,Harinandan,harinandan.alukkal@gmail.com,Replaced literal strings with translation,31.980925925925927
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2317f1682c64c452e6f04a3d049d24ae12c35acb,2022-01-20T08:39:46+05:30,Harinandan,harinandan.alukkal@gmail.com,Cleaned up imports,31.97954861111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,584af6aa7139a9904e42c63aaf2cfbadf7800ace,2022-01-19T22:02:16-08:00,MikeWallaceDev,mike@wallacehub.com,fixed cargo make to work on Windows,31.859756944444445
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,fa006e0b9983c33e5ca80d9776fcdb0a3f64d09d,2022-01-20T18:20:18+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #261 from MikeWallaceDev/edit_readme
+
+Update the readme file",31.68056712962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,130923af554edb8917a1cb6c2d6eb20dcb0f4967,2022-01-20T18:20:28+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #263 from MikeWallaceDev/fix_build_process_on_windows
+
+fixed cargo make to work on Windows",31.68045138888889
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d1c5df4b8818e9bdeaa9df0018a07a06dc98bb51,2022-01-20T23:51:11+08:00,appflowy,annie@appflowy.io,add conflict resolver,31.45078703703704
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,33212df63a141e4ad22416180474f56aeb9110d6,2022-01-21T02:54:36+05:30,Harinandan,harinandan.alukkal@gmail.com,Fixed problem with translation key gen,31.219247685185184
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4da2dadf694eaff2f0b65cdb4fa645b95d1eea79,2022-01-20T21:32:24-05:00,MikeWallaceDev,mike@wallacehub.com,Fixed language generation from build script,31.005497685185187
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,dc05a4cc65dac94fbddc597551b5000bacb5d71b,2022-01-20T21:38:22-05:00,Mike Wallace,mike@wallacehub.com,Merge branch 'main' into settings-modal,31.001354166666665
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,27f900753e484b1a21f8fd8ce48311d66a2a81c8,2022-01-20T22:08:04-05:00,MikeWallaceDev,mike@wallacehub.com,Fixed a typo,30.980729166666666
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,cae691df9aef5a51a64483d62dc0fed8d53cc302,2022-01-21T10:40:27+05:30,Harinandan,harinandan.alukkal@gmail.com,Moved language generation commands in cmd to seperate lines,30.89574074074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1c8d5a782b3d9ea8e4b28c49684c4b0054764759,2022-01-21T10:40:45+05:30,Harinandan,harinandan.alukkal@gmail.com,Merge branch 'settings-modal' of github.com:Hari-07/appflowy into settings-modal,30.89553240740741
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,9d8db6e7465d16ffccc501e7c48084345efb86f6,2022-01-21T05:22:59-08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #262 from Hari-07/settings-modal
+
+Settings Modal",30.553703703703704
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1e66aae051feab982ba7e1a422a761d58c971eab,2022-01-21T21:41:24+08:00,appflowy,annie@appflowy.io,add server folder manager,30.540914351851853
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,222067ec5a55f5072bd7fa1b2852e71dfc5ec90b,2022-01-22T01:55:22+01:00,fabiograz,grf4news@gmail.com,"Update it_IT.json
+
+ Replaced literal strings with translation",30.072881944444443
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1313178924e14dc3713bbd051e0e46a92f2eee0b,2022-01-22T03:51:44-08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #265 from fabiograz/main
+
+Update it_IT.json",29.61707175925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ccb7d0181f613e6f53d232f26ed90bcd9f908de5,2022-01-22T20:59:32+08:00,appflowy,annie@appflowy.io,add folder sync test,29.569988425925924
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,23c4924532aab1439c39065272304026b463359c,2022-01-22T22:41:24+08:00,appflowy,annie@appflowy.io,config folder sync on backend,29.499247685185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2031368ac363e940400feff5a4a51e86d325649d,2022-01-23T08:26:39+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Revert ""Update it_IT.json""",29.092824074074073
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,fa91654f686d18047d01cf3e800e15c6533363ca,2022-01-22T16:26:58-08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #266 from AppFlowy-IO/revert-265-main
+
+Revert ""Update it_IT.json""",29.092604166666668
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,dccbd45a004451ef9019211c5f85861d7b610c69,2022-01-23T11:34:41+08:00,nathan,app_flowy@nathans-iMac.local,switch to stable channel,28.962245370370372
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,cfb589dda1c0b312097e3188f65b09118e20043e,2022-01-23T12:14:00+08:00,nathan,app_flowy@nathans-iMac.local,fix format and clippy warnings,28.93494212962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8fa3590661cab95386d961b5f160261204583b73,2022-01-22T20:47:13-08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #267 from AppFlowy-IO/rust_stable_channel
+
+switch to rust stable channel",28.911875
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,10d99bdd8b0424dfdeaaa8545bab99fdef92282e,2022-01-23T22:33:47+08:00,appflowy,annie@appflowy.io,fix init folder manager bugs,28.504537037037036
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d5ffeb3c8ae9acf6f60a752f670dfc22ace35c1e,2022-01-24T00:52:39+08:00,Discreater,discreater@163.com,fix windows build with multiple visual studio installations,28.408101851851853
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,24c1817c8df46e7d1a33fae7353cedba2bb16be8,2022-01-24T16:27:40+08:00,appflowy,annie@appflowy.io,config web socket,27.758784722222224
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a9eec5baeddcf187c566ab8c8e6793f278c5e982,2022-01-24T17:32:40+08:00,appflowy,annie@appflowy.io,solver conflicts,27.713645833333334
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,bba8f8ae018401c461788c98f39a6d4370adfb62,2022-01-24T17:56:58+08:00,appflowy,annie@appflowy.io,fix fmt and clippy warnings,27.696770833333332
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7f8c0ed53ff6b91886cb17e828e37b189f2ef3ba,2022-01-24T18:17:20+08:00,appflowy,annie@appflowy.io,add missing it_IT.json from https://github.com/AppFlowy-IO/appflowy/pull/265/files,27.682627314814816
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,48e9e75cc7ebc35a2c46c616700774eacdd5409d,2022-01-24T20:12:04+08:00,appflowy,annie@appflowy.io,revert flutter quill to v0.0.2,27.60295138888889
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f90e3b63cdceb0f486f3ca9cc464b7e1211d3e19,2022-01-24T20:20:13+08:00,appflowy,annie@appflowy.io,config backend log level from env,27.597291666666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d97abcc99f418b51d56ff45dc4519cda0f444888,2022-01-24T21:17:31+08:00,appflowy,annie@appflowy.io,rm unuse code & rename folder -> client_folder,27.5575
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,22c8850ceaf7dac84f980fbe101c475e1e842e15,2022-01-24T21:25:46+08:00,appflowy,annie@appflowy.io,comment out ack code for later use.,27.551770833333332
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,353bdc592bdb6929e53afa827284095d23071d52,2022-01-24T21:54:33+08:00,appflowy,annie@appflowy.io,use flowy_unit_test to make backend test work,27.53178240740741
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,44af890f0533a2e53552fd5b018f064be345be98,2022-01-24T15:17:45-05:00,MikeWallaceDev,mike@wallacehub.com,"Fix Italian translation
+
+settings were not in the correct json group.",27.265671296296297
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d333f754c297a482d5e359c2f41f2e196979cdd2,2022-01-24T16:32:50-08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #269 from MikeWallaceDev/fix_italian_translation
+
+Fix Italian translation",27.088530092592592
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,49f1a96cdabcf4dacf1d276caf9133badaa6d693,2022-01-25T15:52:22+08:00,appflowy,annie@appflowy.io,reduce backend unit test  loop time,26.78329861111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,61dd68199ed6f4b1ecd2f73197d12bbd503f729e,2022-01-25T19:45:41+08:00,appflowy,annie@appflowy.io,refactor sync seq,26.62127314814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4cdf3e3e3e5b903a5f29253943cafb799e756aa1,2022-01-25T22:51:32+08:00,appflowy,annie@appflowy.io,compact the revsions,26.49221064814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1cd1d49c0789507948dc60c6a706e6e975a6599c,2022-01-25T14:40:39-05:00,MikeWallaceDev,mike@wallacehub.com,"Removed duplicate documentation now found on Gitbook
+
+CONTRIBUTING.md now points to Gitbook",26.291435185185186
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f0f4bc0b30e1a3636c8c2afd9bcd9f509f494cfb,2022-01-27T10:11:54+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #268 from Discreater/fix_win_multi_VS
+
+fix windows build with multiple visual studio installations",25.019733796296297
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,cc860897159ffa71b03d21b06302acd45b4a2f7c,2022-01-27T10:13:00+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #271 from MikeWallaceDev/remove_duplicate_documentation
+
+Removed duplicate documentation now found on Gitbook",25.018969907407406
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8eaec5e58c84066ff24c7dbe5b17e28cf2ae3aa5,2022-01-27T10:20:09+08:00,appflowy,annie@appflowy.io,fix compact bugs & update unit tests,25.01400462962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,9f54be3fcc2fe7a4ca02bd962c76370d2029808f,2022-01-27T10:59:19+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #273 from AppFlowy-IO/revision_merging_opti
+
+Optimize revision merging: compact multiple revisions into one",24.986805555555556
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c95fdc4782707760d977a4f8f4f987ca628e34cf,2022-01-27T14:07:13+08:00,appflowy,annie@appflowy.io,format log and fix duplicate write issue,24.856319444444445
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,75bc7495bd2f3014feff9f30056099c49c3a248e,2022-01-27T15:34:31+08:00,appflowy,annie@appflowy.io,fix folder editor not initialize after hot reload,24.795694444444443
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6b314ea283e37ead858e104f3c97a2f286dcdaa2,2022-01-27T16:15:46+08:00,appflowy,annie@appflowy.io,fix dark mode theme color,24.76704861111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,eff62b24fbeddd96df0927a79dd09eca65a75c33,2022-01-27T16:40:38+08:00,appflowy,annie@appflowy.io,fix under_line and strike_through line issue,24.74978009259259
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,17955bcf4335ecc9b31b599419dabcca477f0401,2022-01-27T20:10:24+08:00,appflowy,annie@appflowy.io,update version to 0.0.3,24.604108796296295
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2fa99a563c24e8f3570e911f60edf6564c7b893e,2022-01-27T20:43:43+08:00,appflowy,annie@appflowy.io,"rename flowy-core to flowy-folder that manages the workspace,app,view",24.580972222222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e77e6d275fa2ad0e583301b89fbe4039d2a59beb,2022-01-27T14:18:41-05:00,MikeWallaceDev,mike@wallacehub.com,changed permissions from 755 to 644,24.306689814814813
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c9c2ea74adb45b064f18bad8054f8d6646a318cb,2022-01-27T19:02:37-05:00,MikeWallaceDev,mike@wallacehub.com,Add French Canadian translation,24.109513888888888
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e98972cebcf71e3c5abe7d7b420384914618d77d,2022-01-27T19:16:17-05:00,MikeWallaceDev,mike@wallacehub.com,Renamed language files to correct format (using a dash),24.100023148148146
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,df0e128810c136217d82e9edf746df416fec56f3,2022-01-28T08:47:30+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #275 from MikeWallaceDev/fix_permissions
+
+changed permissions from 755 to 644",24.07834490740741
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,774d9ddcf64681be1b5ba3dd87d3dcef5e197eb5,2022-01-28T08:54:51+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #276 from MikeWallaceDev/add_french_translation
+
+Add French Canadian translation",24.07324074074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,17e82f98d5473079416df829f925a83e8d826ff9,2022-01-27T19:57:30-05:00,Mike Wallace,mike@wallacehub.com,Merge branch 'main' into rename_translation_files,24.071400462962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,80242afb933a75e2ed54e0093b196e8fa653ee89,2022-01-28T09:46:53+08:00,AppFlowy.IO,86001920+appflowy@users.noreply.github.com,"Merge pull request #277 from MikeWallaceDev/rename_translation_files
+
+Renamed language files to correct format (using a dash)",24.03710648148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8449f736e765e0b117fc01f05de345c905916f53,2022-01-28T18:38:09+08:00,appflowy,annie@appflowy.io,add user appearance setting,23.668171296296297
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1c2c1e625079f9bc807d2a048bae17defe5d316b,2022-01-28T18:38:13+08:00,appflowy,annie@appflowy.io,save theme setting,23.668125
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,814f9f4c19b3262f5f3f59049aab3f5c89c75c73,2022-01-28T18:48:09+08:00,appflowy,annie@appflowy.io,save language,23.66122685185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,564af73076f8af82566bd26793f54edca34ffd4a,2022-01-28T21:29:09+08:00,appflowy,annie@appflowy.io,fix view listen issue because of the notifier didn't dispose.,23.549421296296295
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ef8624e87cef1b03ff38d70153539828ea1dcc11,2022-01-28T21:32:45+08:00,appflowy,annie@appflowy.io,update dark mode bg3 color,23.546921296296297
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,beb844da1740c722b070b4744af0bd027a1bcbec,2022-01-28T21:38:19+08:00,appflowy,annie@appflowy.io,fix trash_page display issues on dark mode,23.543055555555554
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1c6b78e7d458d7420b74a35e8f874abfdcd33b98,2022-01-28T22:48:15+08:00,appflowy,annie@appflowy.io,fix link button color  on dark mode,23.49449074074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6ea43cd5e5f412e896cb9233fb2056e09c5ecdf8,2022-01-28T21:03:03+05:30,Harinandan,harinandan.alukkal@gmail.com,Created AppLanguage class,23.463379629629628
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,578bf963f7678f5cced03d10c8266be36a6636a4,2022-01-28T21:10:13+05:30,Harinandan,harinandan.alukkal@gmail.com,Added language options to Appearance Model,23.458402777777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,95247bc5fb032d0657ed7e806a83f9f8230528d6,2022-01-28T22:08:57+05:30,Harinandan,harinandan.alukkal@gmail.com,Refactored Language file,23.41761574074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8e14f8b9f1d69e24bb7e3ad7a8c5b2241b4fa808,2022-01-28T22:09:15+05:30,Harinandan,harinandan.alukkal@gmail.com,Added language to appearance model,23.417407407407406
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,214946cbbcc7b6fbc6d791c135e49fda2583b56c,2022-01-28T22:09:32+05:30,Harinandan,harinandan.alukkal@gmail.com,Created UI for Langauge Switching,23.41721064814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,835a64ca75065840282c08666e547267021a099e,2022-01-28T22:10:11+05:30,Harinandan,harinandan.alukkal@gmail.com,Added language to be observed to application widget,23.41675925925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d7b936a0170d4c9aa73c3fcd5933825819481943,2022-01-29T09:24:04+08:00,appflowy,annie@appflowy.io,fixed language switching issue,23.05295138888889
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,595cfed8923324391335ed03506fb19c5a9aef53,2022-01-29T10:50:14+08:00,appflowy,annie@appflowy.io,added missing translation,22.993113425925927
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,68d4c6dbdb8860924864791baa7d053fcd1a5366,2022-01-29T14:08:08+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #279 from Hari-07/language_switcher
+
+Language switcher",22.85568287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5a3099e3231ff372169d50683893bbdc16eaf863,2022-01-29T22:22:34+08:00,appflowy,annie@appflowy.io,fix apps refresh issue and share button layout issue,22.512326388888887
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,3e3ac9503c710ec468425c38a07aa39c855689fb,2022-01-29T22:32:25+08:00,NewPan,13246884282@163.com,feat: use once_cell for perf.,22.50548611111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,513423a9be543a86f5deccd7c44ae38ba9e01b5c,2022-01-29T22:47:09+08:00,appflowy,annie@appflowy.io,fix undo redo issue,22.49525462962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,3a1136a8fbe281b4fab2d81baa0e26a624f032e4,2022-01-29T22:55:44+08:00,appflowy,annie@appflowy.io,update setting icon,22.48929398148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0159414cac5786a48c5da3b5ca26f99fe231dfb4,2022-01-29T22:56:20+08:00,appflowy,annie@appflowy.io,set default theme: light,22.488877314814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,fccd8ad4b9d16aa30b629b108d954c24810c6c4d,2022-01-29T23:14:54+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #282 from newyjp/feat/once_cell_perf
+
+feat: use once_cell for perf.",22.475983796296298
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,195bb9edcbc76546b9015abedc0c05345e42a02b,2022-01-30T09:10:26+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Revert ""feat: use once_cell for perf.""",22.062418981481482
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,442bf57e440bb03e1fea4c1c976695bb98166d03,2022-01-30T09:11:15+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #285 from AppFlowy-IO/revert-282-feat/once_cell_perf
+
+Revert ""feat: use once_cell for perf.""",22.061851851851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a48031df7ca789c376646fe27b4228c8ae4d326e,2022-01-30T10:33:05+08:00,appflowy,annie@appflowy.io,return stream subscription,22.005023148148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,fcc6f51b3bbefa149f0c5de6bd1e13cfa306586d,2022-01-30T10:33:21+08:00,appflowy,annie@appflowy.io,rename folder event,22.004837962962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2090c36f710a2e20f320a65f31d042f4421bbc72,2022-01-30T15:17:30+08:00,NewPan,13246884282@163.com,feat: use once_cell for perf.,21.807511574074073
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,204c0a90f2eea63e6d6a4bca1ec34dd3757f498a,2022-01-30T18:03:26+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #288 from NewShi/feat/once_cell_perf
+
+feat: use once_cell for perf.",21.692280092592593
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,df642b54f649f2749504e0eb91781d67bf2ab0e1,2022-01-31T01:09:08+06:00,FahimFBA,fahimbinamin@gmail.com,"Improved the project's README
+
+Removed the last `.` after **Twitter**.
+
+Closing #291",21.31332175925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4aa51a933de30b001e287f18390d404b9808d690,2022-01-31T07:59:08+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #292 from FahimFBA/fba-improvement-on-readme
+
+Improved the project's README",21.11193287037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f709bb6a6dec6e82aca7ed5d33fbf7336a0d5c13,2022-01-31T10:18:34+08:00,appflowy,annie@appflowy.io,remove iAuth interface,21.015104166666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6e8c3c821a165ad940cb5083df8ac4200e318e7c,2022-01-31T10:18:34+08:00,appflowy,annie@appflowy.io,remove splash interface,21.015104166666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,aaca3ba90dffb039841e50e0b7133c2f57e6cef4,2022-01-31T10:18:34+08:00,appflowy,annie@appflowy.io,remove workspace interface,21.015104166666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,99cadf98d205a9d36090d86de84f85f4e1fb95e4,2022-01-31T10:18:34+08:00,appflowy,annie@appflowy.io,remove app interface,21.015104166666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8127e47ceae6472f0b826661bd6457320c9e58ae,2022-01-31T10:18:34+08:00,appflowy,annie@appflowy.io,remove redundant interfaces,21.015104166666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,be806e301c5775c6c5423296eed153d1862a7d60,2022-02-01T09:12:59+08:00,appflowy,annie@appflowy.io,read device locale as default locale setting,20.060648148148147
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,df5e178c6cf2acf395d73b2005a0610fada2ed1d,2022-02-01T11:29:11+08:00,appflowy,annie@appflowy.io,remove unuse codes,19.966064814814814
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,728d60239a34a73174e99c191299be0ab29b1f97,2022-02-01T12:15:11+08:00,appflowy,annie@appflowy.io,added reset appearance setting,19.93412037037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,177ed8d51a21a16bb1753aa2e318817d5dbdafd6,2022-02-02T17:22:29-03:00,Lays Rodrigues,laysrodriguessilva@gmail.com,"fix appflowy version in dockerfile
+
+Signed-off-by: Lays Rodrigues <laysrodriguessilva@gmail.com>",18.26238425925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,062873a1fe2c5ed39ac23be558452a6f9a12f193,2022-02-02T19:17:34-04:00,Gustavo Sanchez,gustavo.sanchez@canonical.com,Add i18n support for Spanish (Venezuela),18.140798611111112
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,b21498dc9bb9720854320dbd26af598d438a6c4d,2022-02-03T09:22:37+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #297 from lays147/fix-dockerfile
+
+fix appflowy version in dockerfile",18.053958333333334
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ea0179536d7d1de8499ba09060c011923f3b9a87,2022-02-04T15:54:36+08:00,appflowy,annie@appflowy.io,fix: show_menu icon on dark mode,16.781747685185184
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ef1d10b377fc1e7a0e66598420209608f7c28f76,2022-02-04T15:55:06+08:00,appflowy,annie@appflowy.io,ci: add commit lint,16.781400462962964
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,92b3f3e7698fb93365e2cca2dcd1442be0948a81,2022-02-04T20:27:42+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #303 from AppFlowy-IO/feat/commit_lint
+
+Feat/commit lint",16.592094907407407
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5519dcd525c124900a90a03f7e789784e9960561,2022-02-04T20:09:41-05:00,MikeWallaceDev,mike@wallacehub.com,"refactor: language settings to remove applanguage enum
+
+Fixes: #290
+app now uses Locale directly
+list of languages is now generated from EasyLocalization",16.062939814814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e65a320c006489622636f186928bcee46d655641,2022-02-05T09:39:51+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #306 from MikeWallaceDev/refactor_languange_remove_enum
+
+Refactored Language settings to remove AppLanguage enum",16.04199074074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ec4d69e5b8120bedee7175db65f19891347ae556,2022-02-05T10:26:51+08:00,appflowy,annie@appflowy.io,fix: collapse button display color in dark mode,16.009351851851854
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a6f675c1d951316d2c7e9376b54f19cde5d151c0,2022-02-05T10:27:43+08:00,appflowy,annie@appflowy.io,fix: locale data deserializere error,16.00875
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,cb57d20bfbd1dcb496bd66c809d5ad8a280c87f9,2022-02-04T21:46:57-05:00,Daniil Golubev,dadyarri@gmail.com,"Added russian translations (#287)
+
+* Added russian translations
+
+* Register russian locale",15.995393518518519
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,18407a0e470a59c0b63c58e0251435f3de8c663c,2022-02-05T11:16:46+08:00,appflowy,annie@appflowy.io,fix: new doc button's langauge display issue,15.9746875
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,662220ab8a0bedef1b1014df3ac0ff56d8b82069,2022-02-05T11:16:46+08:00,appflowy,annie@appflowy.io,fix: add toolbar tooltip language display issue,15.9746875
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0758db971bad971881cd3326acef41d987e1cc13,2022-02-05T11:16:46+08:00,appflowy,annie@appflowy.io,refactor: remove unuse imports,15.9746875
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,592e91bed48bb5101b07d7d4f5af5699c63c369c,2022-02-05T11:23:10+08:00,appflowy,annie@appflowy.io,style: supportedLocales list,15.970243055555555
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0d473978515db677eae3505c91bbee107b3db613,2022-02-05T16:34:29+08:00,appflowy,annie@appflowy.io,feat: config commitlint & ignore commitlint auto generated files,15.754050925925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e9ba1e18860dc1abd26c42e1ed64b1b31f2d4192,2022-02-05T21:50:49+08:00,appflowy,annie@appflowy.io,fix: fallback to supported locale if easy_localization doesn't support device locale,15.534375
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,62bafce0b2382cafbe0d68fdc0118f47b9aa0b67,2022-02-05T22:01:51+08:00,appflowy,annie@appflowy.io,fix: fallback to supported locale if easy_localization doesn't support device locale,15.526712962962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,28e3cb35b8d246fab6cc5e5f3ea0bb1963888106,2022-02-05T12:32:12-05:00,MikeWallaceDev,mike@wallacehub.com,"fix: makefile for commitlint
+
+Fixed the Linux part.",15.380636574074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f1a8919772d60463b0cfcae10d1f97570ebe1c32,2022-02-05T12:39:35-05:00,MikeWallaceDev,mike@wallacehub.com,fix: removed comments,15.375509259259259
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1796d0a448de3c8f07ca97163ed457d6900f9076,2022-02-05T13:13:48-05:00,MikeWallaceDev,mike@wallacehub.com,"fix: put back Russian language
+
+set EasyLocalization to not save language locally.",15.351747685185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e1f6e483e7b93c9e48d4c5a2d7251748ac823e3e,2022-02-05T16:35:25-04:00,Gustavo Sanchez,40648663+gustavosr98@users.noreply.github.com,Merge branch 'main' into main,15.253402777777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c5aefeb45e2444d3e14849707907806ac652ea33,2022-02-06T11:41:30+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #307 from MikeWallaceDev/fix_makefile_for_commitlint
+
+fix: makefile for commitlint",14.957511574074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,cac0dcaf7f8c9bfd3bbebd38e8830a60096594c3,2022-02-06T11:42:13+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #308 from MikeWallaceDev/fix_readd_russian_language
+
+fix: put back Russian language",14.95701388888889
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,67dff1720bbb868f6307920f55fa0e2576809cb2,2022-02-06T11:48:43+08:00,appflowy,annie@appflowy.io,feat: remove backend,14.9525
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,248473dddf792aec50e5d32244bf5663a452f673,2022-02-06T21:26:16+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #310 from AppFlowy-IO/remove_backend
+
+feat: remove backend",14.551423611111112
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,680d1309865faec3477ddabe2c37b15390d9b3b3,2022-02-07T10:47:09+08:00,appflowy,annie@appflowy.io,refactor: remove unuse crate references,13.99525462962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,084e9c5f6f47ba1d28dfffabf9a780c2c681d7da,2022-02-07T15:33:46+08:00,appflowy,annie@appflowy.io,refactor: refactor some crates with http_server,13.796215277777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0c6903f793b6107ce1e66fb64426173cf04a4cd1,2022-02-07T15:34:46+08:00,appflowy,annie@appflowy.io,refactor: refactor some crates with http_server,13.795520833333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,9f8e3b09c31d1b0a6770827b332eef3cf170a632,2022-02-07T15:48:01+08:00,appflowy,annie@appflowy.io,fix: compile errors,13.786319444444445
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,337161c3d723690bd3ff9116766a72bbcc0d4d4b,2022-02-07T15:51:19+08:00,appflowy,annie@appflowy.io,style: config log,13.784027777777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,59aed762e798ff1ac41967e704dce5c84c4c3752,2022-02-07T16:04:35+08:00,appflowy,annie@appflowy.io,ci: fix compile errors,13.774814814814814
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ecf2598be7c49913d1232e326b45b7277cecb280,2022-02-07T16:12:11-04:00,Gustavo Sanchez,40648663+gustavosr98@users.noreply.github.com,Merge branch 'main' into main,13.269537037037036
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,9135b92a39a7acac5f9a85be39ec87358f0374c5,2022-02-08T14:36:59+08:00,appflowy,annie@appflowy.io,refactor: generate the pb files using build.rs,12.835648148148149
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d0b02cb4fdb94207131e19a3d503b51ca4ab93e7,2022-02-08T16:24:59+08:00,appflowy,annie@appflowy.io,refactor: generate dart pb files with feature flag: dart,12.760648148148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,79d30eb84d0bd031568ec45d5e5dc038e6e16541,2022-02-08T16:34:39+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #311 from AppFlowy-IO/opti_pb_gen
+
+Opti protobuf code gen",12.753935185185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,561aa348e9e2bed17ecd637594c7347b9cbf1534,2022-02-08T21:22:11+08:00,appflowy,annie@appflowy.io,fix: add futures-core crate features,12.55425925925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,dd3f1d0b24d8daf9339307ffcb3326b5deb8bc7f,2022-02-08T21:43:31+08:00,appflowy,annie@appflowy.io,ci: install protobuf code gen tool,12.539444444444445
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,014ff27881b878ea58f3b111539a9ba086ca5076,2022-02-08T22:34:02+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,install protoc_plugin,12.504363425925925
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f55de1fd17259f26a95182bbcc62221765cf9be9,2022-02-08T22:42:00+08:00,appflowy,annie@appflowy.io,feat: install protoc-gen-dart if not installed,12.49883101851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,15d91d3cbe03d8d29670e3b7d30c51ee7b84201a,2022-02-08T23:05:28+08:00,appflowy,annie@appflowy.io,ci: export path,12.482534722222223
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1ab3f42477768005dc86a38cccb3580041d43011,2022-02-08T23:52:00+08:00,appflowy,annie@appflowy.io,ci: install protoc binary,12.450219907407407
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,68b0730ddaae6f8466b0122e747ef75a300ac353,2022-02-09T00:47:43+08:00,appflowy,annie@appflowy.io,ci: disable dart pb gen,12.411527777777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,10187ce0494ff5d900ef67e17289acc8aa199964,2022-02-09T01:08:26+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #312 from AppFlowy-IO/fix_ci
+
+feat: install protoc-gen-dart if not installed",12.397141203703704
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,837666d36db025d10cafcbd8a292fee3f119e2df,2022-02-09T01:14:54+08:00,appflowy,annie@appflowy.io,ci: fix dart pb,12.392650462962964
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,832db73410712eb7d95ab66a8663da12709c8e5c,2022-02-09T07:23:57+08:00,appflowy,annie@appflowy.io,ci: add logs,12.136365740740741
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,30bedb337f575dd37600fa01b3329d125c65a58f,2022-02-09T07:32:59+08:00,appflowy,annie@appflowy.io,ci: export path to CI,12.130092592592593
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,32e0b5e96d4ed37011afc2b8c6a72511516c63b8,2022-02-09T08:02:58+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #314 from AppFlowy-IO/fix_dart_pb
+
+ci: fix dart pb",12.109270833333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7646f984e08481f1bd21aefb30f4f57918cfd09e,2022-02-09T09:57:03+08:00,appflowy,annie@appflowy.io,refactor: generate x.proto file using build.rs,12.030046296296296
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,1c3c519b1462aed90fe378ead82cec0a28eceec7,2022-02-09T13:08:49+08:00,appflowy,annie@appflowy.io,refactor: cache proto file info,11.896875
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4b63170e56baba301bbae80249bf4888879c1d9e,2022-02-09T18:17:06+08:00,appflowy,annie@appflowy.io,refactor: read cache proto info,11.682789351851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,7cceafa432085689d64125182a748bbb4de4637d,2022-02-09T18:39:58+08:00,appflowy,annie@appflowy.io,style: fix warnings,11.666909722222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,93863462a2617fde13bebe64df80125b9f51168c,2022-02-09T19:17:15+08:00,appflowy,annie@appflowy.io,fix: pass unit test,11.641018518518518
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,58097585393f185fa44634dcfe461c3006f636ae,2022-02-09T19:26:06+08:00,appflowy,annie@appflowy.io,refactor: rename error-code to flowy-error-code in case of ambiguous,11.634872685185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,82ac2a5d7979bd934d3d8702e9adeaa80fb0967d,2022-02-09T20:35:07+08:00,appflowy,annie@appflowy.io,ci: generate language files and install pb tools,11.586944444444445
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,17c8f9fdde036781f63bfd8b0fdfa8850ffd92fc,2022-02-09T20:46:39+08:00,appflowy,annie@appflowy.io,ci: rename ci & fix generate language file command error,11.578935185185186
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ddc2926c9b769768b1df42d5808b9676d5b9c755,2022-02-09T20:57:49+08:00,appflowy,annie@appflowy.io,ci: switch to flutter stable channel,11.571180555555555
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c407c38dc3dfd58e81460099c03d050bc20731de,2022-02-09T21:13:51+08:00,appflowy,annie@appflowy.io,ci: install cargo-make,11.560046296296296
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ebfddc744b084d59d40f047f5d135cc61b439953,2022-02-09T21:18:39+08:00,Daniil,dadyarri@gmail.com,"ci: add notification, when english UI strings has been updated",11.556712962962964
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,d6409e58899c35b0c499156e4c0ba82efc37a270,2022-02-09T21:18:46+08:00,Daniil,dadyarri@gmail.com,ci: add action when new release is published,11.556631944444444
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,68dfde4cf86e232153b123260bf61bdca4a9d452,2022-02-09T21:39:12+08:00,appflowy,annie@appflowy.io,ci: cargo test without default features,11.54244212962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,08433defd8fbdfe79e50268d3b7f4b90886ac568,2022-02-09T21:47:52+08:00,appflowy,annie@appflowy.io,ci: try generate language files again,11.536423611111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f872c6c1f83f91627515614deec29e0b6b35be62,2022-02-09T21:56:46+08:00,appflowy,annie@appflowy.io,ci: fix flutter warnings,11.530243055555555
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,487e5035bb58c782ddb4f89f4a371f8d72056e58,2022-02-09T22:22:31+08:00,appflowy,annie@appflowy.io,ci: fix flutter warnings,11.512361111111112
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,686507cd671a69d9668d50a717debdb76c579336,2022-02-09T22:26:10+08:00,appflowy,annie@appflowy.io,feat: remove cargo make pb command,11.50982638888889
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,8df2dccfcec19f95e1194906ec30e33776038791,2022-02-09T23:01:16+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #317 from AppFlowy-IO/opti_proto_gen
+
+Optimize x.proto files geneneration process",11.485451388888889
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,45826b55714bf019368cf7882c691ad6bd869558,2022-02-10T09:15:16+08:00,appflowy,annie@appflowy.io,ci: rename GitHub actions,11.0590625
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e0495b65abfe4f424d1ca82704f0940c87d7da72,2022-02-10T10:39:51+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #318 from AppFlowy-IO/action_rename
+
+ci: rename GitHub action",11.000324074074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,983fed16dc5591ebd504b621c87f452f1762cf3f,2022-02-10T11:48:08+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #316 from dadyarri/add-automatic-notifications
+
+Add automatic notifications",10.952905092592593
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,04f61cdf5e3c6e57020c97ee59695a27e41ee1f2,2022-02-10T15:06:36+08:00,appflowy,annie@appflowy.io,ci: update discord web hook,10.81508101851852
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,fa57de5419f385db8904e5cfc486339f56c5611a,2022-02-10T15:16:21+08:00,appflowy,annie@appflowy.io,ci: update hook file name,10.808310185185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,bbbf3006c97a7c1dad272dbdd1f6a33aa6569fe9,2022-02-10T15:16:37+08:00,appflowy,annie@appflowy.io,ci: remove release hook,10.808125
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6d4335ae047363273cb4e0384c8ff19511091bfc,2022-02-10T15:16:57+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #320 from AppFlowy-IO/discord_web_hook
+
+ci: update discord web hook",10.807893518518519
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,bf36cbccbbf16236a0050985d632d1b962475910,2022-02-10T15:19:44+08:00,appflowy,annie@appflowy.io,ci: test web hook,10.805960648148147
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5ceaee415cde179fc27c31e501fb97d2fb7097d1,2022-02-10T15:23:08+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #321 from AppFlowy-IO/web_hook_test
+
+ci: test web hook",10.803599537037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4ba1ba00a5619f0c0afaff8d3524db9a7fd22990,2022-02-10T15:28:52+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Revert ""ci: test web hook""",10.799618055555555
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,53e2fbad3d8807688fd1353231dc1ff67d4f8f1c,2022-02-10T15:29:11+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #322 from AppFlowy-IO/revert-321-web_hook_test
+
+Revert ""ci: test web hook""",10.799398148148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,4e2bd6ba74e7717fc26819a32c122d3143c47ca8,2022-02-10T16:19:16+08:00,appflowy,annie@appflowy.io,ci: fix notify,10.764618055555555
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f192406afdfc639f6c4744b5e1556382b1175017,2022-02-10T16:20:45+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #325 from AppFlowy-IO/fix_discord_notify
+
+ci: fix notify",10.763587962962964
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,afa629a2b44884f0da4c2c2ed1c3befeb48423b0,2022-02-11T20:05:55+08:00,appflowy,annie@appflowy.io,feat: update macOS dev install command,9.607222222222223
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ff203a91eb0fcfc7b1964ecd1339ccb2b1321d26,2022-02-11T20:15:40+08:00,appflowy,annie@appflowy.io,ci: update build macos command,9.600451388888889
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,9434bff9c92c36a77312760526e1e0f118c344a1,2022-02-12T10:57:02+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Update ci.yaml
+
+fix ci.yaml format errors",8.988391203703705
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,320aea039a91c8d12e44a3627e71725680802ce6,2022-02-13T10:03:27+07:00,Hieu,hieugaomoc@gmail.com,ci: add some more commit prefixes,7.983935185185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,9b8c110a66ac70cde327aa611be40d6d2269df4d,2022-02-13T12:04:34+08:00,appflowy,annie@appflowy.io,refactor: optimize protobuf code gen process,7.941493055555555
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ddcbd25fae86bd17c425fb7359818fa34615cdd7,2022-02-13T12:35:04+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #328 from AppFlowy-IO/protoc_bin_vendored
+
+refactor: optimize protobuf code gen process",7.9203125
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,257ea11ce6ac5e3d1537e9964851329fd899e7ec,2022-02-13T12:50:08+08:00,Annie,anqi.annie.wang@gmail.com,"Merge pull request #299 from gustavosr98/main
+
+Added spanish [Venezuela] translations",7.909849537037037
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,fa33f0c21bbe8ddf08ed506cd118159be838515b,2022-02-13T22:10:37+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #327 from hieugao/ci/add-more-commit-prefixes
+
+Add some more commit prefixes",7.520625
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,bcf9e83fd7abf951c936073d6b5f288e55ad0774,2022-02-14T12:21:10+08:00,xurunkang,tsuiyuenhong@gmail.com,feat: support automated release by Github CI. (macOS/Linux),6.929965277777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e9712540a17a8104d930b1a52f2e1158e0ab858a,2022-02-14T14:31:37+03:00,Daniil,dadyarri@gmail.com,style: fix typo in ru translate,6.6310416666666665
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,f65ee293aea9807e17c63c0a82fb70bb4a22ed14,2022-02-15T08:29:31+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #331 from tsuiyuenhong/main
+
+feat: support automated release by Github CI. (macOS/Linux)",6.090833333333333
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,aecf29ddca24efd5fd6f5fb16170e035fe961d8f,2022-02-15T10:10:47+08:00,appflowy,annie@appflowy.io,chore: support compile af on frontend/ directory,6.020509259259259
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,427d2c2e25f3453a72256dc6b3dd7da2277334c4,2022-02-15T13:27:54+08:00,appflowy,annie@appflowy.io,chore: rename functions,5.883622685185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0933935071ca64b95976399ef4ad41ed36d2b714,2022-02-15T22:18:34+08:00,appflowy,annie@appflowy.io,refactor: add code_gen crate,5.515104166666666
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,bf3a0b6e5b5832116a23fd77c545d33fed3e7577,2022-02-15T22:37:13+08:00,appflowy,annie@appflowy.io,feat: add flowy_clean command to remove the build.rs cache,5.502152777777778
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,cd013529d4c76b80b57210450f1996f4977ddf1f,2022-02-16T11:05:43+08:00,appflowy,annie@appflowy.io,chore: write dart_event file,4.9823611111111115
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,afd8335e9573b96abcf6b969d1e69461c1ff22c9,2022-02-16T11:13:14+08:00,appflowy,annie@appflowy.io,chore: cache dart_event.dart file,4.977141203703703
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,0aed86737ff044b8bfed3744117faa4c0434ca47,2022-02-16T11:16:24+08:00,appflowy,annie@appflowy.io,feat: add dart_event.dart to gitignore,4.974942129629629
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,2a6ce12a5546aafa3f6d0ed390a651eb7edd3dc6,2022-02-16T12:22:26+08:00,appflowy,annie@appflowy.io,ci: fix ci errors,4.929085648148148
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5a0f87fe0255f0c6cf5c55fa1c35aa911f6f5d6f,2022-02-16T12:27:41+08:00,appflowy,annie@appflowy.io,ci: add missing file,4.925439814814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,c760ca67888594b15f2971f64dffc8803585b8bf,2022-02-16T14:23:27+08:00,appflowy,annie@appflowy.io,chore: update unit test,4.845046296296296
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6061dc19899d1eb91c6e42f0f3121cf0123415f0,2022-02-16T15:28:00+08:00,appflowy,annie@appflowy.io,chore: update unit test,4.800219907407407
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,73351199331f52122b0ee2f6c29599f3fbf1540f,2022-02-16T15:29:05+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #334 from dadyarri/fix-typo-in-ru-translate
+
+fix typo in ru translate",4.799467592592593
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,91b1430e7b73100d500e17afdde91404466c0f79,2022-02-16T16:11:09+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #337 from AppFlowy-IO/auto_gen_dart_event
+
+Auto gen dart event",4.77025462962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,47d17e6bb22d8952a25b2f04e144aa03f2752c3b,2022-02-16T17:23:30+08:00,xurunkang,tsuiyuenhong@gmail.com,feat: fix ci build error,4.720011574074074
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,373407fd5751b4519b599bc0ae90b27edb41a804,2022-02-16T18:09:43+08:00,appflowy,annie@appflowy.io,ci: fix potential ci error,4.687916666666666
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,a7819c645681ee8f5f9f1a0d5e670bb20dbc95bf,2022-02-16T18:11:25+08:00,appflowy,annie@appflowy.io,chore: delete dart_event.dart,4.686736111111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,e1f926098219e249422a38c7e9486ce660868970,2022-02-16T18:44:42+08:00,appflowy,annie@appflowy.io,chore: fix unit errors,4.663622685185185
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,5c74e1d667e6a70f97128bf68f975c100a5c2e74,2022-02-16T19:18:03+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #340 from AppFlowy-IO/fix_potential_ci_error
+
+ci: fix potential ci error",4.640462962962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,eda5d9f4f985a84b837f6306fc737af8e395c4c9,2022-02-17T09:51:05+08:00,visitor,tsuiyuenhong@gmail.com,Merge branch 'AppFlowy-IO:main' into main,4.034189814814815
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,33ff6b2f2345840668e00309332f5c19f60c180d,2022-02-17T11:18:30+08:00,appflowy,annie@appflowy.io,chore: update the prompt of protoc-gen-dart installation,3.9734837962962963
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,ceaf1ccc211d9ee5412f9198ccf9b36d0e9d8325,2022-02-17T16:32:10+08:00,nathan,nathan@appflowy.io,feat: fix windows build erros,3.755659722222222
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,06967d805710a40599cf1e2bc1e1f0bb1879eaac,2022-02-17T20:10:29+08:00,appflowy,annie@appflowy.io,fix: path issue on windows,3.604050925925926
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,dab835ad86f7e11869e0af865a1d02682834b5b6,2022-02-17T20:31:49+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #341 from tsuiyuenhong/main
+
+update release CI build steps.",3.589236111111111
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,6593855f8fdecc951660a6b56291b8747aeab1d5,2022-02-17T22:36:21+08:00,Nathan.fooo,86001920+appflowy@users.noreply.github.com,"Merge pull request #343 from AppFlowy-IO/fix_windows_build
+
+Fix windows build",3.5027546296296297
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,dd832b748272948f10a35faf033a2f3ad5e8e9d5,2022-02-18T23:04:55+08:00,appflowy,annie@appflowy.io,chore: rename some struct,2.4829166666666667
+0.0.3,0.0.2,2022-02-21T02:40:19+00:00,dd8c26df0257c8ad718eda3543f71bc9289a3d9b,2022-02-19T11:34:31+08:00,appflowy,annie@appflowy.io,refactor: revision_cache with sync_seq,1.962361111111111
 0.0.4,0.0.3,2022-06-06T13:06:37+00:00,dd8c26df0257c8ad718eda3543f71bc9289a3d9b,2022-02-19T11:34:31+08:00,appflowy,annie@appflowy.io,refactor: revision_cache with sync_seq,107.39729166666666
 0.0.4,0.0.3,2022-06-06T13:06:37+00:00,2c3aade0f963fdf193093858db9287bcec74c4e7,2022-02-19T13:52:52+08:00,appflowy,annie@appflowy.io,refactor: remove unuse code,107.30121527777777
 0.0.4,0.0.3,2022-06-06T13:06:37+00:00,c559c5cc6b4744d242730b7fe4b7635f5a35e94f,2022-02-19T16:48:57+08:00,appflowy,annie@appflowy.io,feat: config bloc test,107.17893518518518
@@ -22109,3 +23215,55 @@ Some Chinese translations have been revised to make them look more authentic.",8
 0.10.6,0.10.5,2025-12-05T08:23:26+00:00,bbe886fcdd5295ff49aaeec883181c67ca89ec29,2025-11-16T21:57:57+08:00,Annie,anqi.annie.wang@gmail.com,Update README.md (#8327),18.76769675925926
 0.10.7,0.10.6,2025-12-20T02:49:32+00:00,bbe886fcdd5295ff49aaeec883181c67ca89ec29,2025-11-16T21:57:57+08:00,Annie,anqi.annie.wang@gmail.com,Update README.md (#8327),33.53582175925926
 0.10.8,0.10.7,2025-12-22T07:25:22+00:00,bbe886fcdd5295ff49aaeec883181c67ca89ec29,2025-11-16T21:57:57+08:00,Annie,anqi.annie.wang@gmail.com,Update README.md (#8327),35.72737268518519
+0.10.9,0.10.8,2026-01-09T12:05:15+00:00,bbe886fcdd5295ff49aaeec883181c67ca89ec29,2025-11-16T21:57:57+08:00,Annie,anqi.annie.wang@gmail.com,Update README.md (#8327),53.92173611111111
+0.11.0,0.10.9,2026-01-12T07:51:05+00:00,bbe886fcdd5295ff49aaeec883181c67ca89ec29,2025-11-16T21:57:57+08:00,Annie,anqi.annie.wang@gmail.com,Update README.md (#8327),56.74523148148148
+0.11.1,0.11.0,2026-01-28T09:20:38+00:00,bbe886fcdd5295ff49aaeec883181c67ca89ec29,2025-11-16T21:57:57+08:00,Annie,anqi.annie.wang@gmail.com,Update README.md (#8327),72.80741898148148
+0.11.2,0.11.1,2026-02-14T08:09:05+00:00,bbe886fcdd5295ff49aaeec883181c67ca89ec29,2025-11-16T21:57:57+08:00,Annie,anqi.annie.wang@gmail.com,Update README.md (#8327),89.75773148148149
+0.11.3,0.11.2,2026-02-25T02:18:32+00:00,bbe886fcdd5295ff49aaeec883181c67ca89ec29,2025-11-16T21:57:57+08:00,Annie,anqi.annie.wang@gmail.com,Update README.md (#8327),100.51429398148149
+0.11.4,0.11.3,2026-03-09T12:03:33+00:00,bbe886fcdd5295ff49aaeec883181c67ca89ec29,2025-11-16T21:57:57+08:00,Annie,anqi.annie.wang@gmail.com,Update README.md (#8327),112.92055555555555
+0.11.5,0.11.4,2026-03-26T07:36:26+00:00,bbe886fcdd5295ff49aaeec883181c67ca89ec29,2025-11-16T21:57:57+08:00,Annie,anqi.annie.wang@gmail.com,Update README.md (#8327),129.73505787037038
+0.11.5,0.11.4,2026-03-26T07:36:26+00:00,4af02cdc87468be10ab15dbb4afd27fbf53ce89b,2026-03-20T14:02:00+08:00,Lucas,lucas.xu@appflowy.io,"fix: add autofillHints support to AFTextField (#8594)
+
+* chore: bump version to 0.11.4 and update changelog
+
+* feat: add autofillHints support to AFTextField
+
+* fix: remove autoFocus from font search input
+
+* chore: fix code formatting",6.065578703703704
+0.11.6,0.11.5,2026-04-01T08:44:34+00:00,4af02cdc87468be10ab15dbb4afd27fbf53ce89b,2026-03-20T14:02:00+08:00,Lucas,lucas.xu@appflowy.io,"fix: add autofillHints support to AFTextField (#8594)
+
+* chore: bump version to 0.11.4 and update changelog
+
+* feat: add autofillHints support to AFTextField
+
+* fix: remove autoFocus from font search input
+
+* chore: fix code formatting",12.112893518518518
+0.11.7,0.11.6,2026-04-08T01:36:22+00:00,4af02cdc87468be10ab15dbb4afd27fbf53ce89b,2026-03-20T14:02:00+08:00,Lucas,lucas.xu@appflowy.io,"fix: add autofillHints support to AFTextField (#8594)
+
+* chore: bump version to 0.11.4 and update changelog
+
+* feat: add autofillHints support to AFTextField
+
+* fix: remove autoFocus from font search input
+
+* chore: fix code formatting",18.815532407407407
+0.11.8,0.11.7,2026-04-24T09:48:29+00:00,4af02cdc87468be10ab15dbb4afd27fbf53ce89b,2026-03-20T14:02:00+08:00,Lucas,lucas.xu@appflowy.io,"fix: add autofillHints support to AFTextField (#8594)
+
+* chore: bump version to 0.11.4 and update changelog
+
+* feat: add autofillHints support to AFTextField
+
+* fix: remove autoFocus from font search input
+
+* chore: fix code formatting",35.15728009259259
+0.11.9,0.11.8,2026-05-12T04:32:49+00:00,4af02cdc87468be10ab15dbb4afd27fbf53ce89b,2026-03-20T14:02:00+08:00,Lucas,lucas.xu@appflowy.io,"fix: add autofillHints support to AFTextField (#8594)
+
+* chore: bump version to 0.11.4 and update changelog
+
+* feat: add autofillHints support to AFTextField
+
+* fix: remove autoFocus from font search input
+
+* chore: fix code formatting",52.93806712962963
