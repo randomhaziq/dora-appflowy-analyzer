@@ -1,9 +1,7 @@
 issue_number,fix_commit_sha,changed_file,parent_commit_sha,note
-153.0,7270c578e9e146971ff4e7ff6748a7fd96c59cc1,frontend/app_flowy/lib/workspace/presentation/widgets/pop_up_action.dart,b25db57fca124338bb66cab1f5fd682d4964defd,SZZ-lite file-level parent mapping only
 369.0,f8f77db79b0854a903d4bce5ef2a86b174f0cd9e,frontend/app_flowy/assets/translations/fr-FR.json,441627783bc5e48021d454edfbee9b4c7958c3f5,SZZ-lite file-level parent mapping only
 369.0,f8f77db79b0854a903d4bce5ef2a86b174f0cd9e,frontend/app_flowy/lib/startup/tasks/app_widget.dart,441627783bc5e48021d454edfbee9b4c7958c3f5,SZZ-lite file-level parent mapping only
 369.0,f8f77db79b0854a903d4bce5ef2a86b174f0cd9e,frontend/app_flowy/packages/flowy_infra/lib/language.dart,441627783bc5e48021d454edfbee9b4c7958c3f5,SZZ-lite file-level parent mapping only
-143.0,30891806309452b6ece9e6b42764d8d7d3ca715c,frontend/app_flowy/lib/workspace/application/view/view_bloc.dart,ee0939ab861541a8ead296200a1ad76c439c6897,SZZ-lite file-level parent mapping only
 796.0,4e0b9c87e275b8f878ea060e2b0718ef513706b6,frontend/app_flowy/lib/workspace/presentation/home/home_layout.dart,811dc46bc67bed890f459e98cd943873f1e750ed,SZZ-lite file-level parent mapping only
 796.0,4e0b9c87e275b8f878ea060e2b0718ef513706b6,frontend/app_flowy/lib/workspace/presentation/home/home_screen.dart,811dc46bc67bed890f459e98cd943873f1e750ed,SZZ-lite file-level parent mapping only
 1135.0,6fa79b65f608477835dc8325051574496e9bc29d,frontend/rust-lib/flowy-folder/src/manager.rs,55be554cc7e0bea54450e3c084c0682817949d5e,SZZ-lite file-level parent mapping only

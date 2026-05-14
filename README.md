@@ -137,10 +137,13 @@ Generated outputs:
   - `data/results/summary.json`
 - Charts:
   - `charts/deployment_frequency_monthly.png`
+  - `charts/deployment_frequency_yearly.png`
   - `charts/lead_time_monthly.png`
+  - `charts/lead_time_yearly.png`
   - `charts/mttr_monthly.png`
+  - `charts/mttr_yearly.png`
   - `charts/adapted_cfr_monthly.png`
-  - `charts/dora_summary_yearly.png`
+  - `charts/adapted_cfr_yearly.png`
 
 ## Project Structure
 
