@@ -4,6 +4,9 @@ from dataclasses import dataclass
 from typing import Any
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
+from dataclasses import field
 
 
 class GitHubApiError(RuntimeError):
@@ -17,6 +20,7 @@ class GitHubApiClient:
     token: str | None = None
     timeout: int = 30
     api_base_url: str = "https://api.github.com"
+    session: requests.Session = field(init=False)
 
     def _headers(self) -> dict[str, str]:
         headers = {
@@ -27,35 +31,60 @@ class GitHubApiClient:
             headers["Authorization"] = f"Bearer {self.token}"
         return headers
 
+    def __post_init__(self) -> None:
+        # Create a session with retry/backoff to handle transient network/DNS issues
+        session = requests.Session()
+        retries = Retry(
+            total=5,
+            backoff_factor=1,
+            status_forcelist=(429, 500, 502, 503, 504),
+            allowed_methods=("GET", "POST", "PUT", "DELETE", "PATCH"),
+        )
+        adapter = HTTPAdapter(max_retries=retries)
+        session.mount("https://", adapter)
+        session.mount("http://", adapter)
+        self.session = session
+
     def _build_url(self, endpoint: str) -> str:
         endpoint = endpoint.lstrip("/")
         return f"{self.api_base_url}/repos/{self.owner}/{self.repo}/{endpoint}"
 
     def get(self, endpoint: str, params: dict[str, Any] | None = None) -> requests.Response:
-        response = requests.get(
-            self._build_url(endpoint),
-            headers=self._headers(),
-            params=params,
-            timeout=self.timeout,
-        )
+        try:
+            response = self.session.get(
+                self._build_url(endpoint),
+                headers=self._headers(),
+                params=params,
+                timeout=self.timeout,
+            )
+        except requests.RequestException as exc:
+            raise GitHubApiError(
+                "Network error when contacting GitHub API. "
+                "Check network/DNS/proxy settings and try again.",
+            ) from exc
         self._raise_for_status(response)
         return response
 
     def get_paginated(self, endpoint: str, params: dict[str, Any] | None = None) -> list[dict[str, Any]]:
         base_params = dict(params or {})
         base_params.setdefault("per_page", 100)
-
-        page = 1
         results: list[dict[str, Any]] = []
+        next_url: str | None = self._build_url(endpoint)
+        next_params: dict[str, Any] | None = base_params
 
-        while True:
-            page_params = {**base_params, "page": page}
-            response = requests.get(
-                self._build_url(endpoint),
-                headers=self._headers(),
-                params=page_params,
-                timeout=self.timeout,
-            )
+        while next_url:
+            try:
+                response = self.session.get(
+                    next_url,
+                    headers=self._headers(),
+                    params=next_params,
+                    timeout=self.timeout,
+                )
+            except requests.RequestException as exc:
+                raise GitHubApiError(
+                    "Network error when contacting GitHub API while paginating. "
+                    "Check network/DNS/proxy settings and try again."
+                ) from exc
             self._raise_for_status(response)
             payload = response.json()
             if not isinstance(payload, list):
@@ -63,9 +92,11 @@ class GitHubApiClient:
             if not payload:
                 break
             results.extend(payload)
-            if len(payload) < int(base_params["per_page"]):
+            next_link = response.links.get("next", {}).get("url")
+            if not next_link:
                 break
-            page += 1
+            next_url = next_link
+            next_params = None
 
         return results
 

@@ -5,7 +5,7 @@ from typing import Any
 
 import pandas as pd
 
-from .config import AppConfig
+from .config import AppConfig, combined_results_dir
 
 ADAPTED_CFR_NOTE = (
     "This is an adapted proxy for change failure rate because full SZZ bug-inducing commit detection was not implemented."
@@ -118,14 +118,32 @@ def assemble_metrics(
     return pd.concat(normalized_parts, ignore_index=True) if normalized_parts else pd.DataFrame()
 
 
+def _annotate_metrics(config: AppConfig, metrics_df: pd.DataFrame) -> pd.DataFrame:
+    annotated = metrics_df.copy()
+    annotated["repository_slug"] = config.repository_slug
+    annotated["repository_name"] = config.repository_name
+    annotated["repository_full_name"] = config.repository_full_name
+    return annotated[
+        [
+            "repository_slug",
+            "repository_name",
+            "repository_full_name",
+            "period",
+            "metric_name",
+            "metric_value",
+            "metric_note",
+        ]
+    ]
+
+
 def calculate_metrics(
     config: AppConfig,
     deployments_df: pd.DataFrame,
     commits_df: pd.DataFrame,
     recovery_df: pd.DataFrame,
 ) -> tuple[pd.DataFrame, pd.DataFrame, dict[str, Any]]:
-    monthly = assemble_metrics(deployments_df, commits_df, recovery_df, "M")
-    yearly = assemble_metrics(deployments_df, commits_df, recovery_df, "Y")
+    monthly = _annotate_metrics(config, assemble_metrics(deployments_df, commits_df, recovery_df, "M"))
+    yearly = _annotate_metrics(config, assemble_metrics(deployments_df, commits_df, recovery_df, "Y"))
 
     monthly_path = config.results_dir / "dora_metrics_monthly.csv"
     yearly_path = config.results_dir / "dora_metrics_yearly.csv"
@@ -135,7 +153,9 @@ def calculate_metrics(
     yearly.to_csv(yearly_path, index=False)
 
     summary: dict[str, Any] = {
-        "repository": f"{config.owner}/{config.repo}",
+        "repository_slug": config.repository_slug,
+        "repository_name": config.repository_name,
+        "repository_full_name": config.repository_full_name,
         "start_date": config.start_date,
         "end_date": config.end_date,
         "include_prereleases": config.include_prereleases,
@@ -148,3 +168,18 @@ def calculate_metrics(
         json.dump(summary, handle, indent=2)
 
     return monthly, yearly, summary
+
+
+def export_combined_metrics(
+    config: AppConfig,
+    monthly_frames: list[pd.DataFrame],
+    yearly_frames: list[pd.DataFrame],
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    combined_monthly = pd.concat(monthly_frames, ignore_index=True) if monthly_frames else pd.DataFrame()
+    combined_yearly = pd.concat(yearly_frames, ignore_index=True) if yearly_frames else pd.DataFrame()
+
+    results_dir = combined_results_dir(config)
+    combined_monthly.to_csv(results_dir / "dora_metrics_monthly_all_repos.csv", index=False)
+    combined_yearly.to_csv(results_dir / "dora_metrics_yearly_all_repos.csv", index=False)
+
+    return combined_monthly, combined_yearly

@@ -61,6 +61,7 @@ def normalize_issue_rows(issues: list[dict[str, Any]]) -> list[dict[str, Any]]:
 def collect_issues(config: AppConfig, client: GitHubApiClient) -> tuple[pd.DataFrame, pd.DataFrame]:
     raw_path = config.raw_data_dir / "closed_bug_issues.csv"
     processed_path = config.processed_data_dir / "failures.csv"
+    since = f"{config.start_date}T00:00:00Z" if config.start_date else None
 
     if raw_path.exists() and config.skip_api_cache_refresh:
         raw_df = pd.read_csv(raw_path)
@@ -69,7 +70,7 @@ def collect_issues(config: AppConfig, client: GitHubApiClient) -> tuple[pd.DataF
             f"Cached issue data was requested via --skip-api-cache-refresh, but {raw_path} does not exist."
         )
     else:
-        issues = client.get_issues(state="closed")
+        issues = client.get_issues(state="closed", since=since)
         all_issues_df = pd.DataFrame(normalize_issue_rows(issues))
         if all_issues_df.empty:
             raw_df = all_issues_df

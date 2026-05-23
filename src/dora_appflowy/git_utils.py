@@ -1,10 +1,11 @@
 from __future__ import annotations
 
 import re
+import shutil
 import subprocess
 from pathlib import Path
 
-from git import GitCommandError, Repo
+from git import GitCommandError, InvalidGitRepositoryError, NoSuchPathError, Repo
 
 SEMVER_TAG_PATTERN = re.compile(r"^v?\d+\.\d+\.\d+(?:[-+][0-9A-Za-z.-]+)?$")
 
@@ -25,7 +26,18 @@ def clone_or_update_repository(repo_url: str, local_path: Path) -> Repo:
                 "or pre-populate the local cache directory first."
             ) from exc
 
-    repo = Repo(local_path)
+    try:
+        repo = Repo(local_path)
+    except (InvalidGitRepositoryError, NoSuchPathError):
+        shutil.rmtree(local_path, ignore_errors=True)
+        try:
+            return Repo.clone_from(repo_url, local_path)
+        except GitCommandError as exc:
+            raise RuntimeError(
+                f"Failed to refresh the invalid cached repository at {local_path} from {repo_url}. "
+                "If you are offline or GitHub access is blocked, rerun in an environment with network access."
+            ) from exc
+
     try:
         origin = repo.remotes.origin
         origin.fetch(prune=True, tags=True)

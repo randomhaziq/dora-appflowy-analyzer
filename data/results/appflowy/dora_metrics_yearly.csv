@@ -1,0 +1,33 @@
+repository_slug,repository_name,repository_full_name,period,metric_name,metric_value,metric_note
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2022,deployment_frequency,7.0,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2023,deployment_frequency,28.0,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2024,deployment_frequency,37.0,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2025,deployment_frequency,28.0,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2022,lead_time_days_mean,38.73302326841373,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2023,lead_time_days_mean,8.910773381941874,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2024,lead_time_days_mean,5.906746502300256,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2025,lead_time_days_mean,7.1221774952919015,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2022,lead_time_days_median,31.983836805555555,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2023,lead_time_days_median,5.3126851851851855,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2024,lead_time_days_median,5.322685185185185,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2025,lead_time_days_median,7.007418981481481,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2022,lead_time_days_min,0.001388888888888889,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2023,lead_time_days_min,0.0004166666666666667,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2024,lead_time_days_min,0.00034722222222222224,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2025,lead_time_days_min,0.0002199074074074074,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2022,lead_time_days_max,107.39729166666666,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2023,lead_time_days_max,50.06728009259259,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2024,lead_time_days_max,20.167546296296297,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2025,lead_time_days_max,63.16295138888889,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2022,recovery_time_days_mean,43.614963942307696,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2023,recovery_time_days_mean,68.66641970346552,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2024,recovery_time_days_mean,114.24300817249174,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2025,recovery_time_days_mean,283.03418974550897,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2022,recovery_time_days_median,30.802939814814813,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2023,recovery_time_days_median,24.630370370370372,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2024,recovery_time_days_median,61.530092592592595,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2025,recovery_time_days_median,262.62070601851855,
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2022,adapted_bugfix_deployment_rate,0.8571428571428571,This is an adapted proxy for change failure rate because full SZZ bug-inducing commit detection was not implemented.
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2023,adapted_bugfix_deployment_rate,1.0,This is an adapted proxy for change failure rate because full SZZ bug-inducing commit detection was not implemented.
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2024,adapted_bugfix_deployment_rate,0.8648648648648649,This is an adapted proxy for change failure rate because full SZZ bug-inducing commit detection was not implemented.
+appflowy,AppFlowy,AppFlowy-IO/AppFlowy,2025,adapted_bugfix_deployment_rate,0.6071428571428571,This is an adapted proxy for change failure rate because full SZZ bug-inducing commit detection was not implemented.
